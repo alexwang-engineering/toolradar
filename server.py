@@ -110,14 +110,27 @@ def main():
     print("⚡ ToolRadar")
     print("━" * 40)
 
-    if _needs_update():
-        print("📡 Data missing or stale — running initial fetch (~60 s)...\n")
-        from scraper import run_scraper
-        run_scraper()
-    else:
+    if DATA_FILE.exists():
         data = json.loads(DATA_FILE.read_text())
         last = data.get("last_updated", "")[:10]
-        print(f"✅ {data['total_tools']} tools loaded  (last updated: {last})")
+        print(f"✅ {data.get('total_tools', 0)} tools loaded  (last updated: {last})")
+    else:
+        print("📡 No cached data yet — will fetch in the background...")
+
+    if _needs_update():
+        print("📡 Data missing or stale — refreshing in the background...\n")
+
+        def _bg_scrape():
+            _state["running"] = True
+            try:
+                from scraper import run_scraper
+                run_scraper()
+            except Exception as e:
+                _state["last_error"] = str(e)
+            finally:
+                _state["running"] = False
+
+        threading.Thread(target=_bg_scrape, daemon=True).start()
 
     if not os.environ.get("TOOLRADAR_NO_BROWSER"):
         def _open():

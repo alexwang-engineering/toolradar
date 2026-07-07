@@ -1,7 +1,3435 @@
 {
-  "last_updated": "2026-07-06T08:47:28.089011",
-  "next_update": "2026-07-13T08:47:28.089021",
-  "total_tools": 0,
-  "suggestion_of_the_day": null,
-  "categories": []
+  "last_updated": "2026-07-07T13:27:03.782634",
+  "next_update": "2026-07-14T13:27:03.782642",
+  "total_tools": 210,
+  "suggestion_of_the_day": {
+    "id": "ghapi_36633370",
+    "name": "awesome-selfhosted/awesome-selfhosted",
+    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "source": "GitHub",
+    "category": "DevOps & Infrastructure",
+    "score": 303451,
+    "score_label": "\u2b50 303.5k",
+    "tags": [],
+    "added": "2026-07-07T13:26:25.111412",
+    "rank": 1,
+    "rank_change": null
+  },
+  "categories": [
+    {
+      "id": "learn",
+      "name": "Learning Resources",
+      "icon": "\ud83d\udcda",
+      "color": "#3FB950",
+      "rank": 1,
+      "rank_change": null,
+      "total_score": 5192234,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "ghapi_21737465",
+          "name": "sindresorhus/awesome",
+          "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+          "url": "https://github.com/sindresorhus/awesome",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 482677,
+          "score_label": "\u2b50 482.7k",
+          "tags": [],
+          "added": "2026-07-07T13:26:57.786376",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_freeCodeCamp_freeCodeCamp",
+          "name": "freeCodeCamp/freeCodeCamp",
+          "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "source": "GitHub Trending",
+          "category": "Learning Resources",
+          "score": 451205,
+          "score_label": "\u2b50 451.2k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:38.305890",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_85077558",
+          "name": "nilbuild/developer-roadmap",
+          "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+          "url": "https://github.com/nilbuild/developer-roadmap",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 359565,
+          "score_label": "\u2b50 359.6k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:59.123905",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_83222441",
+          "name": "donnemartin/system-design-primer",
+          "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 356510,
+          "score_label": "\u2b50 356.5k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:27:00.261753",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_60493101",
+          "name": "jwasham/coding-interview-university",
+          "description": "A complete computer science study plan to become a software engineer.",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 355363,
+          "score_label": "\u2b50 355.4k",
+          "tags": [],
+          "added": "2026-07-07T13:27:00.261831",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_21289110",
+          "name": "vinta/awesome-python",
+          "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+          "url": "https://github.com/vinta/awesome-python",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 306782,
+          "score_label": "\u2b50 306.8k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:57.786415",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_138393139",
+          "name": "trimstray/the-book-of-secret-knowledge",
+          "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 232091,
+          "score_label": "\u2b50 232.1k",
+          "tags": [],
+          "added": "2026-07-07T13:26:57.786421",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_63476337",
+          "name": "TheAlgorithms/Python",
+          "description": "All Algorithms implemented in Python",
+          "url": "https://github.com/TheAlgorithms/Python",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 222477,
+          "score_label": "\u2b50 222.5k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:27:00.261839",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_19415064",
+          "name": "ossu/computer-science",
+          "description": "\ud83c\udf93 Path to a free self-taught education in Computer Science!",
+          "url": "https://github.com/ossu/computer-science",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 205764,
+          "score_label": "\u2b50 205.8k",
+          "tags": [
+            "HTML"
+          ],
+          "added": "2026-07-07T13:27:03.570964",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_126577260",
+          "name": "trekhleb/javascript-algorithms",
+          "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+          "url": "https://github.com/trekhleb/javascript-algorithms",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 196189,
+          "score_label": "\u2b50 196.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:27:00.261844",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_121395510",
+          "name": "CyC2018/CS-Notes",
+          "description": ":books: \u6280\u672f\u9762\u8bd5\u5fc5\u5907\u57fa\u7840\u77e5\u8bc6\u3001Leetcode\u3001\u8ba1\u7b97\u673a\u64cd\u4f5c\u7cfb\u7edf\u3001\u8ba1\u7b97\u673a\u7f51\u7edc\u3001\u7cfb\u7edf\u8bbe\u8ba1",
+          "url": "https://github.com/CyC2018/CS-Notes",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 184676,
+          "score_label": "\u2b50 184.7k",
+          "tags": [],
+          "added": "2026-07-07T13:27:00.261849",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_58028038",
+          "name": "521xueweihan/HelloGitHub",
+          "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+          "url": "https://github.com/521xueweihan/HelloGitHub",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 164290,
+          "score_label": "\u2b50 164.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:57.786430",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_132464395",
+          "name": "Snailclimb/JavaGuide",
+          "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e AI \u5e94\u7528\u5f00\u53d1",
+          "url": "https://github.com/Snailclimb/JavaGuide",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 156861,
+          "score_label": "\u2b50 156.9k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:27:00.261853",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_62607227",
+          "name": "yangshun/tech-interview-handbook",
+          "description": "Curated coding interview preparation materials for busy software engineers",
+          "url": "https://github.com/yangshun/tech-interview-handbook",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 140697,
+          "score_label": "\u2b50 140.7k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:27:01.368790",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_241576270",
+          "name": "labuladong/fucking-algorithm",
+          "description": "Crack LeetCode, not only how, but also why. ",
+          "url": "https://github.com/labuladong/fucking-algorithm",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 134727,
+          "score_label": "\u2b50 134.7k",
+          "tags": [
+            "Markdown"
+          ],
+          "added": "2026-07-07T13:27:01.368858",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_561730219",
+          "name": "krahets/hello-algo",
+          "description": "\u300aHello \u7b97\u6cd5\u300b\uff1a\u52a8\u753b\u56fe\u89e3\u3001\u4e00\u952e\u8fd0\u884c\u7684\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u6559\u7a0b\u3002\u652f\u6301\u7b80\u4e2d\u3001\u7e41\u4e2d\u3001English\u3001\u65e5\u672c\u8a9e\uff0c\u63d0\u4f9b Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart \u7b49\u4ee3\u7801\u5b9e\u73b0",
+          "url": "https://github.com/krahets/hello-algo",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 128182,
+          "score_label": "\u2b50 128.2k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:27:01.368863",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_55076063",
+          "name": "Hack-with-Github/Awesome-Hacking",
+          "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+          "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 115759,
+          "score_label": "\u2b50 115.8k",
+          "tags": [],
+          "added": "2026-07-07T13:26:57.786435",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_15204860",
+          "name": "papers-we-love/papers-we-love",
+          "description": "Papers from the computer science community to read and discuss.",
+          "url": "https://github.com/papers-we-love/papers-we-love",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 107641,
+          "score_label": "\u2b50 107.6k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:26:57.786439",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_101296881",
+          "name": "mtdvio/every-programmer-should-know",
+          "description": "A collection of (mostly) technical things every software developer should know about",
+          "url": "https://github.com/mtdvio/every-programmer-should-know",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 100033,
+          "score_label": "\u2b50 100.0k",
+          "tags": [],
+          "added": "2026-07-07T13:27:03.571033",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_44882201",
+          "name": "MunGell/awesome-for-beginners",
+          "description": "A list of awesome beginners-friendly projects.",
+          "url": "https://github.com/MunGell/awesome-for-beginners",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 87217,
+          "score_label": "\u2b50 87.2k",
+          "tags": [],
+          "added": "2026-07-07T13:26:57.786448",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_693342566",
+          "name": "ByteByteGoHq/system-design-101",
+          "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+          "url": "https://github.com/ByteByteGoHq/system-design-101",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 85213,
+          "score_label": "\u2b50 85.2k",
+          "tags": [],
+          "added": "2026-07-07T13:27:02.404578",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_47018239",
+          "name": "DopplerHQ/awesome-interview-questions",
+          "description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ",
+          "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 83435,
+          "score_label": "\u2b50 83.4k",
+          "tags": [],
+          "added": "2026-07-07T13:26:57.786471",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_71583602",
+          "name": "Developer-Y/cs-video-courses",
+          "description": "List of Computer Science courses with video lectures.",
+          "url": "https://github.com/Developer-Y/cs-video-courses",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 82316,
+          "score_label": "\u2b50 82.3k",
+          "tags": [],
+          "added": "2026-07-07T13:27:01.368868",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_655099582",
+          "name": "mlabonne/llm-course",
+          "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+          "url": "https://github.com/mlabonne/llm-course",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 80719,
+          "score_label": "\u2b50 80.7k",
+          "tags": [],
+          "added": "2026-07-07T13:26:59.123968",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_115478820",
+          "name": "binhnguyennus/awesome-scalability",
+          "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+          "url": "https://github.com/binhnguyennus/awesome-scalability",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 72258,
+          "score_label": "\u2b50 72.3k",
+          "tags": [],
+          "added": "2026-07-07T13:27:00.261860",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_63477660",
+          "name": "TheAlgorithms/Java",
+          "description": "All Algorithms implemented in Java",
+          "url": "https://github.com/TheAlgorithms/Java",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 65970,
+          "score_label": "\u2b50 66.0k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:27:01.368873",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_81975372",
+          "name": "kdn251/interviews",
+          "description": "Everything you need to know to get the job.",
+          "url": "https://github.com/kdn251/interviews",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 65048,
+          "score_label": "\u2b50 65.0k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:27:00.261864",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_228016443",
+          "name": "youngyangyang04/leetcode-master",
+          "description": "\u300a\u4ee3\u7801\u968f\u60f3\u5f55\u300bLeetCode \u5237\u9898\u653b\u7565\uff1a200\u9053\u7ecf\u5178\u9898\u76ee\u5237\u9898\u987a\u5e8f\uff0c\u517160w\u5b57\u7684\u8be6\u7ec6\u56fe\u89e3\uff0c\u89c6\u9891\u96be\u70b9\u5256\u6790\uff0c50\u4f59\u5f20\u601d\u7ef4\u5bfc\u56fe\uff0c\u652f\u6301C++\uff0cJava\uff0cPython\uff0cGo\uff0cJavaScript\u7b49\u591a\u8bed\u8a00\u7248\u672c\uff0c\u4ece\u6b64\u7b97\u6cd5\u5b66\u4e60\u4e0d\u518d\u8ff7\u832b\uff01\ud83d\udd25\ud83d\udd25 \u6765\u770b\u770b\uff0c\u4f60\u4f1a\u53d1\u73b0\u76f8\u89c1\u6068\u665a\uff01\ud83d\ude80 ",
+          "url": "https://github.com/youngyangyang04/leetcode-master",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 61870,
+          "score_label": "\u2b50 61.9k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:27:00.261869",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_127407957",
+          "name": "azl397985856/leetcode",
+          "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode\u9898\u89e3\uff0c\u8bb0\u5f55\u81ea\u5df1\u7684leetcode\u89e3\u9898\u4e4b\u8def\u3002)",
+          "url": "https://github.com/azl397985856/leetcode",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 55770,
+          "score_label": "\u2b50 55.8k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:27:00.261874",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_85031442",
+          "name": "poteto/hiring-without-whiteboards",
+          "description": "\u2b50\ufe0f  Companies that don't have a broken hiring process",
+          "url": "https://github.com/poteto/hiring-without-whiteboards",
+          "source": "GitHub",
+          "category": "Learning Resources",
+          "score": 50929,
+          "score_label": "\u2b50 50.9k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:27:00.261878",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI & Productivity",
+      "icon": "\ud83e\udd16",
+      "color": "#A371F7",
+      "rank": 2,
+      "rank_change": null,
+      "total_score": 3768000,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "ghapi_1024554267",
+          "name": "NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 210712,
+          "score_label": "\u2b50 210.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:09.699617",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tensorflow_tensorflow",
+          "name": "tensorflow/tensorflow",
+          "description": "An Open Source Machine Learning Framework for Everyone",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 196097,
+          "score_label": "\u2b50 196.1k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.882766",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_614765452",
+          "name": "Significant-Gravitas/AutoGPT",
+          "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 185415,
+          "score_label": "\u2b50 185.4k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:09.699680",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_658928958",
+          "name": "ollama/ollama",
+          "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+          "url": "https://github.com/ollama/ollama",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 175643,
+          "score_label": "\u2b50 175.6k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:09.699686",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_574523116",
+          "name": "f/prompts.chat",
+          "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
+          "url": "https://github.com/f/prompts.chat",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 164996,
+          "score_label": "\u2b50 165.0k",
+          "tags": [
+            "HTML"
+          ],
+          "added": "2026-07-07T13:26:09.699690",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_527591471",
+          "name": "AUTOMATIC1111/stable-diffusion-webui",
+          "description": "Stable Diffusion web UI",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 164012,
+          "score_label": "\u2b50 164.0k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:14.466828",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_888092115",
+          "name": "microsoft/markitdown",
+          "description": "Python tool for converting files and office documents to Markdown.",
+          "url": "https://github.com/microsoft/markitdown",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 163632,
+          "score_label": "\u2b50 163.6k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:12.207773",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_155220641",
+          "name": "huggingface/transformers",
+          "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+          "url": "https://github.com/huggingface/transformers",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 162332,
+          "score_label": "\u2b50 162.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:09.699695",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_mattpocock_skills",
+          "name": "mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .claude directory.",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 159439,
+          "score_label": "\u2b50 159.4k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:28.793813",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_626805178",
+          "name": "langgenius/dify",
+          "description": "Production-ready platform for agentic workflow development.",
+          "url": "https://github.com/langgenius/dify",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 148030,
+          "score_label": "\u2b50 148.0k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:09.699700",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_787076358",
+          "name": "firecrawl/firecrawl",
+          "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 146938,
+          "score_label": "\u2b50 146.9k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:09.699704",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_701547123",
+          "name": "open-webui/open-webui",
+          "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "url": "https://github.com/open-webui/open-webui",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 144542,
+          "score_label": "\u2b50 144.5k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:09.699708",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_552661142",
+          "name": "langchain-ai/langchain",
+          "description": "The agent engineering platform.",
+          "url": "https://github.com/langchain-ai/langchain",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 141182,
+          "score_label": "\u2b50 141.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:09.699716",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_iptv-org_iptv",
+          "name": "iptv-org/iptv",
+          "description": "Collection of publicly available IPTV channels from all over the world",
+          "url": "https://github.com/iptv-org/iptv",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 130893,
+          "score_label": "\u2b50 130.9k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:32.574227",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_589831718",
+          "name": "Comfy-Org/ComfyUI",
+          "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 119737,
+          "score_label": "\u2b50 119.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:14.466899",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_793375104",
+          "name": "Shubhamsaboo/awesome-llm-apps",
+          "description": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship.",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 116685,
+          "score_label": "\u2b50 116.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:15.629728",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_655806940",
+          "name": "microsoft/generative-ai-for-beginners",
+          "description": "21 Lessons, Get Started Building with Generative AI ",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 112732,
+          "score_label": "\u2b50 112.7k",
+          "tags": [
+            "Jupyter Notebook"
+          ],
+          "added": "2026-07-07T13:26:12.207835",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_browser-use_browser-use",
+          "name": "browser-use/browser-use",
+          "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+          "url": "https://github.com/browser-use/browser-use",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 103265,
+          "score_label": "\u2b50 103.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:25:11.768537",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_669879380",
+          "name": "rasbt/LLMs-from-scratch",
+          "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+          "url": "https://github.com/rasbt/LLMs-from-scratch",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 98692,
+          "score_label": "\u2b50 98.7k",
+          "tags": [
+            "Jupyter Notebook"
+          ],
+          "added": "2026-07-07T13:26:09.699723",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "gh_openai_codex",
+          "name": "openai/codex",
+          "description": "Lightweight coding agent that runs in your terminal",
+          "url": "https://github.com/openai/codex",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 96017,
+          "score_label": "\u2b50 96.0k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:42.117901",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_612344730",
+          "name": "ChatGPTNextWeb/NextChat",
+          "description": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
+          "url": "https://github.com/ChatGPTNextWeb/NextChat",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 88400,
+          "score_label": "\u2b50 88.4k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:17.887034",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_1048065319",
+          "name": "thedotmack/claude-mem",
+          "description": "Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 86260,
+          "score_label": "\u2b50 86.3k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:26:15.629818",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_JuliusBrussee_caveman",
+          "name": "JuliusBrussee/caveman",
+          "description": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 86033,
+          "score_label": "\u2b50 86.0k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:09.971346",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_599547518",
+          "name": "vllm-project/vllm",
+          "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "url": "https://github.com/vllm-project/vllm",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 85587,
+          "score_label": "\u2b50 85.6k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:12.207842",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_262296122",
+          "name": "PaddlePaddle/PaddleOCR",
+          "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 84908,
+          "score_label": "\u2b50 84.9k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:15.629822",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_infiniflow_ragflow",
+          "name": "infiniflow/ragflow",
+          "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+          "url": "https://github.com/infiniflow/ragflow",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 84503,
+          "score_label": "\u2b50 84.5k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.492130",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_643445235",
+          "name": "lobehub/lobehub",
+          "description": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team.",
+          "url": "https://github.com/lobehub/lobehub",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 79572,
+          "score_label": "\u2b50 79.6k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:12.207847",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_1200597263",
+          "name": "Graphify-Labs/graphify",
+          "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 79138,
+          "score_label": "\u2b50 79.1k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:15.629829",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_979115477",
+          "name": "bytedance/deer-flow",
+          "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+          "url": "https://github.com/bytedance/deer-flow",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 76339,
+          "score_label": "\u2b50 76.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:13.406542",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_579082810",
+          "name": "dair-ai/Prompt-Engineering-Guide",
+          "description": "\ud83d\udc19 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+          "source": "GitHub",
+          "category": "AI & Productivity",
+          "score": 76269,
+          "score_label": "\u2b50 76.3k",
+          "tags": [
+            "MDX"
+          ],
+          "added": "2026-07-07T13:26:12.207851",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "name": "Dev Tools & Libraries",
+      "icon": "\ud83d\udee0",
+      "color": "#388BFD",
+      "rank": 3,
+      "rank_change": null,
+      "total_score": 3572996,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_obra_superpowers",
+          "name": "obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 248318,
+          "score_label": "\u2b50 248.3k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:28.792858",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_1136590548",
+          "name": "affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 226836,
+          "score_label": "\u2b50 226.8k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:57.449442",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_vuejs_vue",
+          "name": "vuejs/vue",
+          "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+          "url": "https://github.com/vuejs/vue",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 209978,
+          "score_label": "\u2b50 210.0k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:15.346286",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_193215554",
+          "name": "n8n-io/n8n",
+          "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+          "url": "https://github.com/n8n-io/n8n",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 195505,
+          "score_label": "\u2b50 195.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:08.415273",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_avelino_awesome-go",
+          "name": "avelino/awesome-go",
+          "description": "A curated list of awesome Go frameworks, libraries and software",
+          "url": "https://github.com/avelino/awesome-go",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 177428,
+          "score_label": "\u2b50 177.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.490976",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_307260205",
+          "name": "yt-dlp/yt-dlp",
+          "description": "A feature-rich command-line audio/video downloader",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 175841,
+          "score_label": "\u2b50 175.8k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:08.415334",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_vercel_next.js",
+          "name": "vercel/next.js",
+          "description": "The React Framework",
+          "url": "https://github.com/vercel/next.js",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 140364,
+          "score_label": "\u2b50 140.4k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.603892",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_golang_go",
+          "name": "golang/go",
+          "description": "The Go programming language",
+          "url": "https://github.com/golang/go",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 135105,
+          "score_label": "\u2b50 135.1k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.491985",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_nodejs_node",
+          "name": "nodejs/node",
+          "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+          "url": "https://github.com/nodejs/node",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 118081,
+          "score_label": "\u2b50 118.1k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.603346",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_godotengine_godot",
+          "name": "godotengine/godot",
+          "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+          "url": "https://github.com/godotengine/godot",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 113713,
+          "score_label": "\u2b50 113.7k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:49.419951",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_denoland_deno",
+          "name": "denoland/deno",
+          "description": "A modern runtime for JavaScript and TypeScript.",
+          "url": "https://github.com/denoland/deno",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 107540,
+          "score_label": "\u2b50 107.5k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:19.404452",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_968197216",
+          "name": "google-gemini/gemini-cli",
+          "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 105822,
+          "score_label": "\u2b50 105.8k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:08.415339",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_103633984",
+          "name": "goldbergyoni/nodebestpractices",
+          "description": "\u2705 The Node.js best practices list (July 2026)",
+          "url": "https://github.com/goldbergyoni/nodebestpractices",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 105403,
+          "score_label": "\u2b50 105.4k",
+          "tags": [
+            "Dockerfile"
+          ],
+          "added": "2026-07-07T13:26:05.852908",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_100060912",
+          "name": "microsoft/terminal",
+          "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+          "url": "https://github.com/microsoft/terminal",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 103860,
+          "score_label": "\u2b50 103.9k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:59.721924",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_react_create-react-app",
+          "name": "react/create-react-app",
+          "description": "Set up a modern web app by running one command.",
+          "url": "https://github.com/react/create-react-app",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 103309,
+          "score_label": "\u2b50 103.3k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.603761",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_16408992",
+          "name": "neovim/neovim",
+          "description": "Vim-fork focused on extensibility and usability",
+          "url": "https://github.com/neovim/neovim",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 100948,
+          "score_label": "\u2b50 100.9k",
+          "tags": [
+            "Vim Script"
+          ],
+          "added": "2026-07-07T13:26:00.806473",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_90796663",
+          "name": "puppeteer/puppeteer",
+          "description": "JavaScript API for Chrome and Firefox",
+          "url": "https://github.com/puppeteer/puppeteer",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 95285,
+          "score_label": "\u2b50 95.3k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:57.449487",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ryanmcdermott_clean-code-javascript",
+          "name": "ryanmcdermott/clean-code-javascript",
+          "description": "Clean Code concepts adapted for JavaScript",
+          "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 94684,
+          "score_label": "\u2b50 94.7k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.602823",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_221981891",
+          "name": "microsoft/playwright",
+          "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+          "url": "https://github.com/microsoft/playwright",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 92358,
+          "score_label": "\u2b50 92.4k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:05.852976",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_54173593",
+          "name": "storybookjs/storybook",
+          "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+          "url": "https://github.com/storybookjs/storybook",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 90499,
+          "score_label": "\u2b50 90.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:05.852980",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_opencv_opencv",
+          "name": "opencv/opencv",
+          "description": "Open Source Computer Vision Library",
+          "url": "https://github.com/opencv/opencv",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 89648,
+          "score_label": "\u2b50 89.6k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:49.418818",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bitcoin_bitcoin",
+          "name": "bitcoin/bitcoin",
+          "description": "Bitcoin Core integration/staging tree",
+          "url": "https://github.com/bitcoin/bitcoin",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 89611,
+          "score_label": "\u2b50 89.6k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:49.418192",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Stirling-Tools_Stirling-PDF",
+          "name": "Stirling-Tools/Stirling-PDF",
+          "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 86378,
+          "score_label": "\u2b50 86.4k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:44.183750",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_162998479",
+          "name": "sherlock-project/sherlock",
+          "description": "Hunt down social media accounts by username across social networks",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 86168,
+          "score_label": "\u2b50 86.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:08.415343",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_junegunn_fzf",
+          "name": "junegunn/fzf",
+          "description": "\ud83c\udf38 A command-line fuzzy finder",
+          "url": "https://github.com/junegunn/fzf",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 81536,
+          "score_label": "\u2b50 81.5k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.491280",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_spring-projects_spring-boot",
+          "name": "spring-projects/spring-boot",
+          "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+          "url": "https://github.com/spring-projects/spring-boot",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 81069,
+          "score_label": "\u2b50 81.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:21.345059",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_134017286",
+          "name": "jesseduffield/lazygit",
+          "description": "simple terminal UI for git commands",
+          "url": "https://github.com/jesseduffield/lazygit",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 80132,
+          "score_label": "\u2b50 80.1k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:59.721930",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_203587744",
+          "name": "hoppscotch/hoppscotch",
+          "description": "Open-Source API Development Ecosystem \u2022 https://hoppscotch.io \u2022 Offline, On-Prem & Cloud \u2022 Web, Desktop & CLI \u2022 Open-Source Alternative to Postman, Insomnia",
+          "url": "https://github.com/hoppscotch/hoppscotch",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 79754,
+          "score_label": "\u2b50 79.8k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:57.449492",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_771302083",
+          "name": "OpenHands/OpenHands",
+          "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+          "url": "https://github.com/OpenHands/OpenHands",
+          "source": "GitHub",
+          "category": "Dev Tools & Libraries",
+          "score": 79740,
+          "score_label": "\u2b50 79.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:25:57.449496",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ruvnet_RuView",
+          "name": "ruvnet/RuView",
+          "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
+          "url": "https://github.com/ruvnet/RuView",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 78083,
+          "score_label": "\u2b50 78.1k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:19.404178",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Infrastructure",
+      "icon": "\ud83d\ude80",
+      "color": "#58A6FF",
+      "rank": 4,
+      "rank_change": null,
+      "total_score": 2313363,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "ghapi_36633370",
+          "name": "awesome-selfhosted/awesome-selfhosted",
+          "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 303451,
+          "score_label": "\u2b50 303.5k",
+          "tags": [],
+          "added": "2026-07-07T13:26:25.111412",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ohmyzsh_ohmyzsh",
+          "name": "ohmyzsh/ohmyzsh",
+          "description": "\ud83d\ude43 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 188452,
+          "score_label": "\u2b50 188.5k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:28.794372",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kubernetes_kubernetes",
+          "name": "kubernetes/kubernetes",
+          "description": "Production-Grade Container Scheduling and Management",
+          "url": "https://github.com/kubernetes/kubernetes",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 123446,
+          "score_label": "\u2b50 123.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:40.205001",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_immich-app_immich",
+          "name": "immich-app/immich",
+          "description": "High performance self-hosted photo and video management solution.",
+          "url": "https://github.com/immich-app/immich",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 106624,
+          "score_label": "\u2b50 106.6k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:09.970638",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_382496361",
+          "name": "louislam/uptime-kuma",
+          "description": "A fancy self-hosted monitoring tool",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 88848,
+          "score_label": "\u2b50 88.8k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:26:20.418189",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_127988011",
+          "name": "macrozheng/mall",
+          "description": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpring Boot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u7f6e\u7b49\u6a21\u5757\u3002",
+          "url": "https://github.com/macrozheng/mall",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 83989,
+          "score_label": "\u2b50 84.0k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:26:20.418270",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_212639071",
+          "name": "bregman-arie/devops-exercises",
+          "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+          "url": "https://github.com/bregman-arie/devops-exercises",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 83048,
+          "score_label": "\u2b50 83.0k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:20.418275",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_10744183",
+          "name": "netdata/netdata",
+          "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+          "url": "https://github.com/netdata/netdata",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 79537,
+          "score_label": "\u2b50 79.5k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:20.418279",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_15111821",
+          "name": "grafana/grafana",
+          "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+          "url": "https://github.com/grafana/grafana",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 75334,
+          "score_label": "\u2b50 75.3k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:26.257703",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_7691631",
+          "name": "moby/moby",
+          "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+          "url": "https://github.com/moby/moby",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 71787,
+          "score_label": "\u2b50 71.8k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:20.418283",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ansible_ansible",
+          "name": "ansible/ansible",
+          "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+          "url": "https://github.com/ansible/ansible",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 69334,
+          "score_label": "\u2b50 69.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:25:11.768397",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_725205304",
+          "name": "unslothai/unsloth",
+          "description": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.",
+          "url": "https://github.com/unslothai/unsloth",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 67874,
+          "score_label": "\u2b50 67.9k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:25.111505",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_42408804",
+          "name": "traefik/traefik",
+          "description": "The Cloud Native Application Proxy",
+          "url": "https://github.com/traefik/traefik",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 63890,
+          "score_label": "\u2b50 63.9k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:20.418286",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_121898717",
+          "name": "dani-garcia/vaultwarden",
+          "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 63380,
+          "score_label": "\u2b50 63.4k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:26:20.418290",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_1130564872",
+          "name": "koala73/worldmonitor",
+          "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "url": "https://github.com/koala73/worldmonitor",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 61502,
+          "score_label": "\u2b50 61.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:26.257712",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_436297812",
+          "name": "usememos/memos",
+          "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+          "url": "https://github.com/usememos/memos",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 61391,
+          "score_label": "\u2b50 61.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:20.418294",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_29261473",
+          "name": "minio/minio",
+          "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+          "url": "https://github.com/minio/minio",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 61288,
+          "score_label": "\u2b50 61.3k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:21.618919",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_974186260",
+          "name": "sansan0/TrendRadar",
+          "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 +  RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 +  AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
+          "url": "https://github.com/sansan0/TrendRadar",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 60328,
+          "score_label": "\u2b50 60.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:20.418298",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_332880689",
+          "name": "coollabsio/coolify",
+          "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+          "url": "https://github.com/coollabsio/coolify",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 58038,
+          "score_label": "\u2b50 58.0k",
+          "tags": [
+            "PHP"
+          ],
+          "added": "2026-07-07T13:26:20.418302",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_72495579",
+          "name": "go-gitea/gitea",
+          "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+          "url": "https://github.com/go-gitea/gitea",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 56713,
+          "score_label": "\u2b50 56.7k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:25.111511",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_180190854",
+          "name": "appwrite/appwrite",
+          "description": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+          "url": "https://github.com/appwrite/appwrite",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 56511,
+          "score_label": "\u2b50 56.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:26:20.418306",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dockur_windows",
+          "name": "dockur/windows",
+          "description": "Windows inside a Docker container.",
+          "url": "https://github.com/dockur/windows",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 52361,
+          "score_label": "\u2b50 52.4k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:51.423262",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_11225014",
+          "name": "etcd-io/etcd",
+          "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+          "url": "https://github.com/etcd-io/etcd",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 51951,
+          "score_label": "\u2b50 52.0k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:26:21.618926",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_8681349",
+          "name": "huginn/huginn",
+          "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+          "url": "https://github.com/huginn/huginn",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 49575,
+          "score_label": "\u2b50 49.6k",
+          "tags": [
+            "Ruby"
+          ],
+          "added": "2026-07-07T13:26:26.257716",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_hashicorp_terraform",
+          "name": "hashicorp/terraform",
+          "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+          "url": "https://github.com/hashicorp/terraform",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 48835,
+          "score_label": "\u2b50 48.8k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.490477",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_60246359",
+          "name": "ClickHouse/ClickHouse",
+          "description": "ClickHouse\u00ae is a real-time analytics database management system",
+          "url": "https://github.com/ClickHouse/ClickHouse",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 48492,
+          "score_label": "\u2b50 48.5k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:26:25.111514",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_110058856",
+          "name": "LeCoupa/awesome-cheatsheets",
+          "description": "\ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
+          "url": "https://github.com/LeCoupa/awesome-cheatsheets",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 46161,
+          "score_label": "\u2b50 46.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:26:21.618931",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_873328",
+          "name": "getsentry/sentry",
+          "description": "Developer-first error tracking and performance monitoring",
+          "url": "https://github.com/getsentry/sentry",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 44239,
+          "score_label": "\u2b50 44.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:26:26.257719",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_26783295",
+          "name": "Kong/kong",
+          "description": "\ud83e\udd8d The API and AI Gateway",
+          "url": "https://github.com/Kong/kong",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 43753,
+          "score_label": "\u2b50 43.8k",
+          "tags": [
+            "Lua"
+          ],
+          "added": "2026-07-07T13:26:21.618935",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_10187082",
+          "name": "Unitech/pm2",
+          "description": "Node.js/Bun Production Process Manager with a built-in Load Balancer.",
+          "url": "https://github.com/Unitech/pm2",
+          "source": "GitHub",
+          "category": "DevOps & Infrastructure",
+          "score": 43231,
+          "score_label": "\u2b50 43.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:26:26.257723",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile & Desktop Apps",
+      "icon": "\ud83d\udcf1",
+      "color": "#7EE787",
+      "rank": 5,
+      "rank_change": null,
+      "total_score": 808879,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_jaywcjlove_awesome-mac",
+          "name": "jaywcjlove/awesome-mac",
+          "description": "\uf8ff This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 106839,
+          "score_label": "\u2b50 106.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.782045",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_swiftlang_swift",
+          "name": "swiftlang/swift",
+          "description": "The Swift Programming Language",
+          "url": "https://github.com/swiftlang/swift",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 70143,
+          "score_label": "\u2b50 70.1k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:47.510661",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bannedbook_fanqiang",
+          "name": "bannedbook/fanqiang",
+          "description": "\u7ffb\u5899-\u79d1\u5b66\u4e0a\u7f51",
+          "url": "https://github.com/bannedbook/fanqiang",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 48774,
+          "score_label": "\u2b50 48.8k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:45.804211",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Alamofire_Alamofire",
+          "name": "Alamofire/Alamofire",
+          "description": "Elegant HTTP Networking in Swift",
+          "url": "https://github.com/Alamofire/Alamofire",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 42402,
+          "score_label": "\u2b50 42.4k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.782215",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_exelban_stats",
+          "name": "exelban/stats",
+          "description": "macOS system monitor in your menu bar",
+          "url": "https://github.com/exelban/stats",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 40276,
+          "score_label": "\u2b50 40.3k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:47.510821",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_661957079",
+          "name": "gkd-kit/gkd",
+          "description": "\u57fa\u4e8e\u65e0\u969c\u788d\uff0c\u9ad8\u7ea7\u9009\u62e9\u5668\uff0c\u8ba2\u9605\u89c4\u5219\u7684\u81ea\u5b9a\u4e49\u5c4f\u5e55\u70b9\u51fb\u5b89\u5353\u5e94\u7528 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+          "url": "https://github.com/gkd-kit/gkd",
+          "source": "GitHub",
+          "category": "Mobile & Desktop Apps",
+          "score": 40046,
+          "score_label": "\u2b50 40.0k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:26:56.743616",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_yuliskov_SmartTube",
+          "name": "yuliskov/SmartTube",
+          "description": "Browse media content with your own rules on Android TV",
+          "url": "https://github.com/yuliskov/SmartTube",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 31053,
+          "score_label": "\u2b50 31.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:21.344767",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ReVanced_revanced-manager",
+          "name": "ReVanced/revanced-manager",
+          "description": "\ud83d\udc8a Application to use ReVanced on Android",
+          "url": "https://github.com/ReVanced/revanced-manager",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 28508,
+          "score_label": "\u2b50 28.5k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:23.088825",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_JunkFood02_Seal",
+          "name": "JunkFood02/Seal",
+          "description": "\ud83e\uddad Video/Audio Downloader for Android, based on yt-dlp",
+          "url": "https://github.com/JunkFood02/Seal",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 27434,
+          "score_label": "\u2b50 27.4k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:23.086846",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_RikkaApps_Shizuku",
+          "name": "RikkaApps/Shizuku",
+          "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+          "url": "https://github.com/RikkaApps/Shizuku",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 27188,
+          "score_label": "\u2b50 27.2k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:45.805097",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_pppscn_SmsForwarder",
+          "name": "pppscn/SmsForwarder",
+          "description": "\u77ed\u4fe1\u8f6c\u53d1\u5668\u2014\u2014\u76d1\u63a7Android\u624b\u673a\u77ed\u4fe1\u3001\u6765\u7535\u3001APP\u901a\u77e5\uff0c\u5e76\u6839\u636e\u6307\u5b9a\u89c4\u5219\u8f6c\u53d1\u5230\u5176\u4ed6\u624b\u673a\uff1a\u9489\u9489\u7fa4\u81ea\u5b9a\u4e49\u673a\u5668\u4eba\u3001\u9489\u9489\u4f01\u4e1a\u5185\u673a\u5668\u4eba\u3001\u4f01\u4e1a\u5fae\u4fe1\u7fa4\u673a\u5668\u4eba\u3001\u98de\u4e66\u673a\u5668\u4eba\u3001\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u6d88\u606f\u3001\u90ae\u7bb1\u3001bark\u3001webhook\u3001Telegram\u673a\u5668\u4eba\u3001Server\u9171\u3001PushPlus\u3001\u624b\u673a\u77ed\u4fe1\u7b49\u3002\u5305\u62ec\u4e3b\u52a8\u63a7\u5236\u670d\u52a1\u7aef\u4e0e\u5ba2\u6237\u7aef\uff0c\u8ba9\u4f60\u8f7b\u677e\u8fdc\u7a0b\u53d1\u77ed\u4fe1\u3001\u67e5\u77ed\u4fe1\u3001\u67e5\u901a\u8bdd\u3001\u67e5\u8bdd\u7c3f\u3001\u67e5\u7535\u91cf\u7b49\u3002\uff08V3.0 \u65b0\u589e\uff09PS.\u8fd9\u4e2aAPK\u4e3b\u8981\u662f\u5b66\u4e60\u4e0e\u81ea\u7528\uff0c\u5982\u6709BUG\u8bf7\u63d0ISSUE\uff0c\u540c\u65f6\u6b22\u8fce\u5927\u5bb6\u63d0PR\u6307\u6b63",
+          "url": "https://github.com/pppscn/SmsForwarder",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 26942,
+          "score_label": "\u2b50 26.9k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:45.804366",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_airbnb_lottie-ios",
+          "name": "airbnb/lottie-ios",
+          "description": "An iOS library to natively render After Effects vector animations",
+          "url": "https://github.com/airbnb/lottie-ios",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 26789,
+          "score_label": "\u2b50 26.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.781359",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ReactiveX_RxSwift",
+          "name": "ReactiveX/RxSwift",
+          "description": "Reactive Programming in Swift",
+          "url": "https://github.com/ReactiveX/RxSwift",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 24647,
+          "score_label": "\u2b50 24.6k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.780552",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_onevcat_Kingfisher",
+          "name": "onevcat/Kingfisher",
+          "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
+          "url": "https://github.com/onevcat/Kingfisher",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 24361,
+          "score_label": "\u2b50 24.4k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.782572",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_211288349",
+          "name": "android/compose-samples",
+          "description": "Official Jetpack Compose samples.",
+          "url": "https://github.com/android/compose-samples",
+          "source": "GitHub",
+          "category": "Mobile & Desktop Apps",
+          "score": 23288,
+          "score_label": "\u2b50 23.3k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:26:56.743705",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_SwiftyJSON_SwiftyJSON",
+          "name": "SwiftyJSON/SwiftyJSON",
+          "description": "The better way to deal with JSON data in Swift.",
+          "url": "https://github.com/SwiftyJSON/SwiftyJSON",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 22951,
+          "score_label": "\u2b50 23.0k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.781503",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_483402734",
+          "name": "android/nowinandroid",
+          "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+          "url": "https://github.com/android/nowinandroid",
+          "source": "GitHub",
+          "category": "Mobile & Desktop Apps",
+          "score": 21467,
+          "score_label": "\u2b50 21.5k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:26:56.743710",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_519845229",
+          "name": "open-ani/animeko",
+          "description": "\u96c6\u627e\u756a\u3001\u8ffd\u756a\u3001\u770b\u756a\u7684\u4e00\u7ad9\u5f0f\u5f39\u5e55\u8ffd\u756a\u5e73\u53f0\uff0c\u4e91\u6536\u85cf\u540c\u6b65 (Bangumi)\uff0c\u79bb\u7ebf\u7f13\u5b58\uff0cBitTorrent\uff0c\u5f39\u5e55\u4e91\u8fc7\u6ee4\u3002100% Kotlin/Compose Multiplatform",
+          "url": "https://github.com/open-ani/animeko",
+          "source": "GitHub",
+          "category": "Mobile & Desktop Apps",
+          "score": 18744,
+          "score_label": "\u2b50 18.7k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:26:56.743714",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_simplex-chat_simplex-chat",
+          "name": "simplex-chat/simplex-chat",
+          "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps \ud83d\udcf1!",
+          "url": "https://github.com/simplex-chat/simplex-chat",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 18044,
+          "score_label": "\u2b50 18.0k",
+          "tags": [
+            "Haskell"
+          ],
+          "added": "2026-07-07T13:25:32.574448",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "gh_hackiftekhar_IQKeyboardManager",
+          "name": "hackiftekhar/IQKeyboardManager",
+          "description": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.",
+          "url": "https://github.com/hackiftekhar/IQKeyboardManager",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 16625,
+          "score_label": "\u2b50 16.6k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.781212",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_lwouis_alt-tab-macos",
+          "name": "lwouis/alt-tab-macos",
+          "description": "Windows alt-tab on macOS",
+          "url": "https://github.com/lwouis/alt-tab-macos",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 16011,
+          "score_label": "\u2b50 16.0k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:47.509378",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Moya_Moya",
+          "name": "Moya/Moya",
+          "description": "Network abstraction layer written in Swift.",
+          "url": "https://github.com/Moya/Moya",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 15360,
+          "score_label": "\u2b50 15.4k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.780688",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_pointfreeco_swift-composable-architecture",
+          "name": "pointfreeco/swift-composable-architecture",
+          "description": "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.",
+          "url": "https://github.com/pointfreeco/swift-composable-architecture",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 14788,
+          "score_label": "\u2b50 14.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:47.509526",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "gh_T8RIN_ImageToolbox",
+          "name": "T8RIN/ImageToolbox",
+          "description": "\ud83d\uddbc\ufe0f Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+          "url": "https://github.com/T8RIN/ImageToolbox",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 13632,
+          "score_label": "\u2b50 13.6k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:23.087932",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ankidroid_Anki-Android",
+          "name": "ankidroid/Anki-Android",
+          "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+          "url": "https://github.com/ankidroid/Anki-Android",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 11347,
+          "score_label": "\u2b50 11.3k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:23.088390",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_yairm210_Unciv",
+          "name": "yairm210/Unciv",
+          "description": "Open-source Android/Desktop remake of Civ V",
+          "url": "https://github.com/yairm210/Unciv",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 10927,
+          "score_label": "\u2b50 10.9k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:45.804498",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "ghapi_677376114",
+          "name": "MetrolistGroup/Metrolist",
+          "description": "YouTube Music client for Android",
+          "url": "https://github.com/MetrolistGroup/Metrolist",
+          "source": "GitHub",
+          "category": "Mobile & Desktop Apps",
+          "score": 10630,
+          "score_label": "\u2b50 10.6k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:26:56.743722",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "gh_iSoron_uhabits",
+          "name": "iSoron/uhabits",
+          "description": "Loop Habit Tracker, a mobile app for creating and maintaining long-term positive habits",
+          "url": "https://github.com/iSoron/uhabits",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 10012,
+          "score_label": "\u2b50 10.0k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-07-07T13:25:23.088646",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Quick_Quick",
+          "name": "Quick/Quick",
+          "description": "The Swift (and Objective-C) testing framework.",
+          "url": "https://github.com/Quick/Quick",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 9831,
+          "score_label": "\u2b50 9.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.780417",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "gh_LiveContainer_LiveContainer",
+          "name": "LiveContainer/LiveContainer",
+          "description": "Run iOS apps without actually installing them!",
+          "url": "https://github.com/LiveContainer/LiveContainer",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 9820,
+          "score_label": "\u2b50 9.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:47.509658",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design & Media",
+      "icon": "\ud83c\udfa8",
+      "color": "#F78166",
+      "rank": 6,
+      "rank_change": null,
+      "total_score": 763690,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_mrdoob_three.js",
+          "name": "mrdoob/three.js",
+          "description": "JavaScript 3D Library.",
+          "url": "https://github.com/mrdoob/three.js",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 113551,
+          "score_label": "\u2b50 113.6k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:36.177454",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_mui_material-ui",
+          "name": "mui/material-ui",
+          "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+          "url": "https://github.com/mui/material-ui",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 98547,
+          "score_label": "\u2b50 98.5k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.604178",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_gin-gonic_gin",
+          "name": "gin-gonic/gin",
+          "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+          "url": "https://github.com/gin-gonic/gin",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 88860,
+          "score_label": "\u2b50 88.9k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.489358",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ocornut_imgui",
+          "name": "ocornut/imgui",
+          "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+          "url": "https://github.com/ocornut/imgui",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 74325,
+          "score_label": "\u2b50 74.3k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.883768",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_apple_container",
+          "name": "apple/container",
+          "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "url": "https://github.com/apple/container",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 46918,
+          "score_label": "\u2b50 46.9k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:32.573727",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_aseprite_aseprite",
+          "name": "aseprite/aseprite",
+          "description": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
+          "url": "https://github.com/aseprite/aseprite",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 37851,
+          "score_label": "\u2b50 37.9k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.883498",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_microsoft_WSL",
+          "name": "microsoft/WSL",
+          "description": "Windows Subsystem for Linux",
+          "url": "https://github.com/microsoft/WSL",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 33022,
+          "score_label": "\u2b50 33.0k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.884038",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_shadps4-emu_shadPS4",
+          "name": "shadps4-emu/shadPS4",
+          "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
+          "url": "https://github.com/shadps4-emu/shadPS4",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 31698,
+          "score_label": "\u2b50 31.7k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.885435",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ml-explore_mlx",
+          "name": "ml-explore/mlx",
+          "description": "MLX: An array framework for Apple silicon",
+          "url": "https://github.com/ml-explore/mlx",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 27467,
+          "score_label": "\u2b50 27.5k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:49.418365",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_alibaba_page-agent",
+          "name": "alibaba/page-agent",
+          "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+          "url": "https://github.com/alibaba/page-agent",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 24786,
+          "score_label": "\u2b50 24.8k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:09.969521",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_lvgl_lvgl",
+          "name": "lvgl/lvgl",
+          "description": "Embedded graphics library to create beautiful UIs for any MCU, MPU and display type.",
+          "url": "https://github.com/lvgl/lvgl",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 24021,
+          "score_label": "\u2b50 24.0k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-07-07T13:25:30.663386",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_spicetify_cli",
+          "name": "spicetify/cli",
+          "description": "Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.",
+          "url": "https://github.com/spicetify/cli",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 23657,
+          "score_label": "\u2b50 23.7k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.603163",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_mack-a_v2ray-agent",
+          "name": "mack-a/v2ray-agent",
+          "description": "Xray\u3001Tuic\u3001hysteria2\u3001sing-box \u516b\u5408\u4e00\u4e00\u952e\u811a\u672c",
+          "url": "https://github.com/mack-a/v2ray-agent",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 21412,
+          "score_label": "\u2b50 21.4k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:28.793952",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bluenviron_mediamtx",
+          "name": "bluenviron/mediamtx",
+          "description": "Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.",
+          "url": "https://github.com/bluenviron/mediamtx",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 19396,
+          "score_label": "\u2b50 19.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:40.205289",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_doitsujin_dxvk",
+          "name": "doitsujin/dxvk",
+          "description": "Vulkan-based implementation of D3D8, 9, 10 and 11 for Linux / Wine",
+          "url": "https://github.com/doitsujin/dxvk",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 17536,
+          "score_label": "\u2b50 17.5k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.884871",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_termux_termux-packages",
+          "name": "termux/termux-packages",
+          "description": "A package build system for Termux.",
+          "url": "https://github.com/termux/termux-packages",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 16539,
+          "score_label": "\u2b50 16.5k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:28.794545",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "gh_n0-computer_iroh",
+          "name": "n0-computer/iroh",
+          "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+          "url": "https://github.com/n0-computer/iroh",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 11186,
+          "score_label": "\u2b50 11.2k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:32.575172",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_hasaneyldrm_exercises-dataset",
+          "name": "hasaneyldrm/exercises-dataset",
+          "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 10564,
+          "score_label": "\u2b50 10.6k",
+          "tags": [
+            "HTML"
+          ],
+          "added": "2026-07-07T13:25:09.969020",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tdlib_td",
+          "name": "tdlib/td",
+          "description": "Cross-platform library for building Telegram clients",
+          "url": "https://github.com/tdlib/td",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 8919,
+          "score_label": "\u2b50 8.9k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.883219",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "gh_facebook_astryx",
+          "name": "facebook/astryx",
+          "description": "An open source design system that's fully customizable and agent ready",
+          "url": "https://github.com/facebook/astryx",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 6700,
+          "score_label": "\u2b50 6.7k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:15.344970",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kunchenguid_no-mistakes",
+          "name": "kunchenguid/no-mistakes",
+          "description": "git push no-mistakes",
+          "url": "https://github.com/kunchenguid/no-mistakes",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 5453,
+          "score_label": "\u2b50 5.5k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.490186",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_rivet-dev_agentos",
+          "name": "rivet-dev/agentos",
+          "description": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
+          "url": "https://github.com/rivet-dev/agentos",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 3569,
+          "score_label": "\u2b50 3.6k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:19.405282",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ibelick_ui-skills",
+          "name": "ibelick/ui-skills",
+          "description": "Skills for Design Engineers",
+          "url": "https://github.com/ibelick/ui-skills",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 3554,
+          "score_label": "\u2b50 3.6k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:38.305714",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "gh_void-linux_void-packages",
+          "name": "void-linux/void-packages",
+          "description": "The Void source packages collection",
+          "url": "https://github.com/void-linux/void-packages",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 3303,
+          "score_label": "\u2b50 3.3k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:51.423696",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kunchenguid_gnhf",
+          "name": "kunchenguid/gnhf",
+          "description": "Before I go to bed, I tell my agents: good night, have fun",
+          "url": "https://github.com/kunchenguid/gnhf",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 3028,
+          "score_label": "\u2b50 3.0k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:15.345284",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tt-a1i_archify",
+          "name": "tt-a1i/archify",
+          "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+          "url": "https://github.com/tt-a1i/archify",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 2893,
+          "score_label": "\u2b50 2.9k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:13.602276",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "gh_RikkaApps_Shizuku-API",
+          "name": "RikkaApps/Shizuku-API",
+          "description": "The API and the developer guide for Shizuku and Sui.",
+          "url": "https://github.com/RikkaApps/Shizuku-API",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 2301,
+          "score_label": "\u2b50 2.3k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:21.345830",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kunchenguid_axi",
+          "name": "kunchenguid/axi",
+          "description": "Design principles for agent ergonomics. Higher accuracy with lower token cost than both MCP and regular CLI.",
+          "url": "https://github.com/kunchenguid/axi",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 1368,
+          "score_label": "\u2b50 1.4k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:15.346012",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kunchenguid_treehouse",
+          "name": "kunchenguid/treehouse",
+          "description": "Manage worktrees without managing worktrees.",
+          "url": "https://github.com/kunchenguid/treehouse",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 787,
+          "score_label": "\u2b50 787",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.489646",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48060054",
+          "name": "We just had an actual UUID v4 collision...",
+          "description": "HackerNews \u00b7 479 points",
+          "url": "https://news.ycombinator.com/item?id=48060054",
+          "source": "HackerNews",
+          "category": "Design & Media",
+          "score": 479,
+          "score_label": "\u25b2 479",
+          "tags": [],
+          "added": "2026-07-07T13:25:54.848244",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security & Privacy",
+      "icon": "\ud83d\udd10",
+      "color": "#FF7B72",
+      "rank": 7,
+      "rank_change": null,
+      "total_score": 292722,
+      "tool_count": 19,
+      "tools": [
+        {
+          "id": "gh_msitarzewski_agency-agents",
+          "name": "msitarzewski/agency-agents",
+          "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 128510,
+          "score_label": "\u2b50 128.5k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:09.970507",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_usestrix_strix",
+          "name": "usestrix/strix",
+          "description": "Open-source AI penetration testing tool to find and fix your app\u2019s vulnerabilities.",
+          "url": "https://github.com/usestrix/strix",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 38293,
+          "score_label": "\u2b50 38.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-07-07T13:25:09.968590",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_netbirdio_netbird",
+          "name": "netbirdio/netbird",
+          "description": "Connect your devices into a secure WireGuard\u00ae-based overlay network with SSO, MFA and granular access controls.",
+          "url": "https://github.com/netbirdio/netbird",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 26852,
+          "score_label": "\u2b50 26.9k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.490653",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_CISOfy_lynis",
+          "name": "CISOfy/lynis",
+          "description": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.",
+          "url": "https://github.com/CISOfy/lynis",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 15888,
+          "score_label": "\u2b50 15.9k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:51.424255",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_OpenVPN_openvpn",
+          "name": "OpenVPN/openvpn",
+          "description": "OpenVPN is an open source VPN daemon",
+          "url": "https://github.com/OpenVPN/openvpn",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 14207,
+          "score_label": "\u2b50 14.2k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-07-07T13:25:30.662423",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Netflix_zuul",
+          "name": "Netflix/zuul",
+          "description": "Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.",
+          "url": "https://github.com/Netflix/zuul",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 14046,
+          "score_label": "\u2b50 14.0k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:44.184745",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_logto-io_logto",
+          "name": "logto-io/logto",
+          "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+          "url": "https://github.com/logto-io/logto",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 13922,
+          "score_label": "\u2b50 13.9k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-07-07T13:25:15.344653",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_EasyTier_EasyTier",
+          "name": "EasyTier/EasyTier",
+          "description": "A simple, decentralized mesh VPN with WireGuard support.",
+          "url": "https://github.com/EasyTier/EasyTier",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 12459,
+          "score_label": "\u2b50 12.5k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:19.404317",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dstotijn_hetty",
+          "name": "dstotijn/hetty",
+          "description": "An HTTP toolkit for security research.",
+          "url": "https://github.com/dstotijn/hetty",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 11647,
+          "score_label": "\u2b50 11.6k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:40.205689",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Universal-Debloater-Alliance_universal-android-debloater-next-generation",
+          "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+          "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+          "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 8335,
+          "score_label": "\u2b50 8.3k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:42.117598",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ExpressLRS_ExpressLRS",
+          "name": "ExpressLRS/ExpressLRS",
+          "description": "High Performance Open Source Radio Control Link",
+          "url": "https://github.com/ExpressLRS/ExpressLRS",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 5064,
+          "score_label": "\u2b50 5.1k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-07-07T13:25:30.663681",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_rawfilejson_awesome-osint-arsenal",
+          "name": "rawfilejson/awesome-osint-arsenal",
+          "description": "\ud83d\udd0d Curated OSINT & recon toolkit for Kali Linux \u2014 100+ tools, one-command installer, covering SOCMINT, GEOINT, network recon, dark web, forensics & more.",
+          "url": "https://github.com/rawfilejson/awesome-osint-arsenal",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 1191,
+          "score_label": "\u2b50 1.2k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:51.422591",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bivlked_amneziawg-installer",
+          "name": "bivlked/amneziawg-installer",
+          "description": "One-command install script for self-hosted AmneziaWG 2.0 VPN on Ubuntu and Debian: DPI bypass, traffic obfuscation, auto-hardening, client management",
+          "url": "https://github.com/bivlked/amneziawg-installer",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 914,
+          "score_label": "\u2b50 914",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-07-07T13:25:51.422431",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dromara_ujcms",
+          "name": "dromara/ujcms",
+          "description": "Java\u5f00\u6e90\u7f51\u7ad9\u5185\u5bb9\u7ba1\u7406\u7cfb\u7edf(java cms)\u3002\u4f7f\u7528SpringBoot\u3001MyBatis\u3001Spring Security\u3001Lucene\u3001FreeMarker\u3001TypeScript\u3001Vue3\u3001ElementPlus\u7b49\u6280\u672f\u5f00\u53d1\u3002",
+          "url": "https://github.com/dromara/ujcms",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 656,
+          "score_label": "\u2b50 656",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:21.345242",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48737226",
+          "name": "Tell HN: Installing Cursor on iOS irreversibly changes your privacy settings",
+          "description": "HackerNews \u00b7 248 points",
+          "url": "https://news.ycombinator.com/item?id=48737226",
+          "source": "HackerNews",
+          "category": "Security & Privacy",
+          "score": 248,
+          "score_label": "\u25b2 248",
+          "tags": [],
+          "added": "2026-07-07T13:25:54.845238",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48618488",
+          "name": "Teach your kids perfect pitch",
+          "description": "HackerNews \u00b7 217 points",
+          "url": "https://github.com/paytonjjones/bsharp",
+          "source": "HackerNews",
+          "category": "Security & Privacy",
+          "score": 217,
+          "score_label": "\u25b2 217",
+          "tags": [],
+          "added": "2026-07-07T13:25:53.462060",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48766242",
+          "name": "Bramble \u2013 Local-first password manager",
+          "description": "HackerNews \u00b7 146 points",
+          "url": "https://github.com/flythenimbus/bramble",
+          "source": "HackerNews",
+          "category": "Security & Privacy",
+          "score": 146,
+          "score_label": "\u25b2 146",
+          "tags": [],
+          "added": "2026-07-07T13:25:53.458186",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "hn_47814832",
+          "name": "Claude Code Opus 4.7 keeps checking on malware",
+          "description": "HackerNews \u00b7 69 points",
+          "url": "https://news.ycombinator.com/item?id=47814832",
+          "source": "HackerNews",
+          "category": "Security & Privacy",
+          "score": 69,
+          "score_label": "\u25b2 69",
+          "tags": [],
+          "added": "2026-07-07T13:25:54.849273",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48797656",
+          "name": "Osint tool that finds exposed files on domains",
+          "description": "HackerNews \u00b7 58 points",
+          "url": "https://search.cerast-intelligence.com/",
+          "source": "HackerNews",
+          "category": "Security & Privacy",
+          "score": 58,
+          "score_label": "\u25b2 58",
+          "tags": [],
+          "added": "2026-07-07T13:25:53.458032",
+          "rank": 19,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Analytics",
+      "icon": "\ud83d\udcca",
+      "color": "#FFA657",
+      "rank": 8,
+      "rank_change": null,
+      "total_score": 249506,
+      "tool_count": 11,
+      "tools": [
+        {
+          "id": "gh_elastic_elasticsearch",
+          "name": "elastic/elasticsearch",
+          "description": "Free and Open Source, Distributed, RESTful Search Engine",
+          "url": "https://github.com/elastic/elasticsearch",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 77447,
+          "score_label": "\u2b50 77.4k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-07-07T13:25:21.344086",
+          "rank": 1,
+          "rank_change": null
+        },
+        {
+          "id": "gh_prometheus_prometheus",
+          "name": "prometheus/prometheus",
+          "description": "The Prometheus monitoring system and time series database.",
+          "url": "https://github.com/prometheus/prometheus",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 64975,
+          "score_label": "\u2b50 65.0k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-07-07T13:25:17.489787",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_drawdb-io_drawdb",
+          "name": "drawdb-io/drawdb",
+          "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+          "url": "https://github.com/drawdb-io/drawdb",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 37961,
+          "score_label": "\u2b50 38.0k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:36.175880",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tursodatabase_turso",
+          "name": "tursodatabase/turso",
+          "description": "Turso is an in-process SQL database, compatible with SQLite.",
+          "url": "https://github.com/tursodatabase/turso",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 22667,
+          "score_label": "\u2b50 22.7k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:42.117103",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_alibaba_zvec",
+          "name": "alibaba/zvec",
+          "description": "A lightweight, lightning-fast, in-process vector database",
+          "url": "https://github.com/alibaba/zvec",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 13835,
+          "score_label": "\u2b50 13.8k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-07-07T13:25:26.885007",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dbt-labs_dbt-core",
+          "name": "dbt-labs/dbt-core",
+          "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+          "url": "https://github.com/dbt-labs/dbt-core",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 13378,
+          "score_label": "\u2b50 13.4k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:42.118042",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_t8y2_dbx",
+          "name": "t8y2/dbx",
+          "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB\uff0c\u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u5ba2\u6237\u7aef\u3001\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\u3002\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001DuckDB\u3001ClickHouse\u3001SQL Server \u7b49\u3002",
+          "url": "https://github.com/t8y2/dbx",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 9049,
+          "score_label": "\u2b50 9.0k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-07-07T13:25:19.405598",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_groue_GRDB.swift",
+          "name": "groue/GRDB.swift",
+          "description": "A toolkit for SQLite databases, with a focus on application development",
+          "url": "https://github.com/groue/GRDB.swift",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 8529,
+          "score_label": "\u2b50 8.5k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-07-07T13:25:24.781702",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_iptv-org_database",
+          "name": "iptv-org/database",
+          "description": "User editable database for TV channels.",
+          "url": "https://github.com/iptv-org/database",
+          "source": "GitHub Trending",
+          "category": "Data & Analytics",
+          "score": 1519,
+          "score_label": "\u2b50 1.5k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-07-07T13:25:36.176710",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48662988",
+          "name": "DBOSify \u2013 Drop-in Temporal replacement built on Postgres",
+          "description": "HackerNews \u00b7 91 points",
+          "url": "https://github.com/dbos-inc/dbosify-py",
+          "source": "HackerNews",
+          "category": "Data & Analytics",
+          "score": 91,
+          "score_label": "\u25b2 91",
+          "tags": [],
+          "added": "2026-07-07T13:25:53.460687",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "hn_48645390",
+          "name": "Bun-sqlgen \u2013 Type-safe raw SQL for Bun, no ORM",
+          "description": "HackerNews \u00b7 55 points",
+          "url": "https://github.com/ilbertt/bun-sqlgen",
+          "source": "HackerNews",
+          "category": "Data & Analytics",
+          "score": 55,
+          "score_label": "\u25b2 55",
+          "tags": [],
+          "added": "2026-07-07T13:25:53.461449",
+          "rank": 11,
+          "rank_change": null
+        }
+      ]
+    }
+  ]
 }
