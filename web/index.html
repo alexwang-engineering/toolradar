@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToolRadar</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────────── -->
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">🔮</span>
+      <span class="logo-text">ToolRadar</span>
+    </div>
+
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input id="search" type="text"
+             placeholder="Search tools, descriptions, tags…"
+             autocomplete="off" spellcheck="false">
+      <button id="clearSearch" class="clear-search" title="Clear">✕</button>
+    </div>
+
+    <div class="header-meta">
+      <span id="updateInfo" class="update-info"></span>
+      <button id="themeBtn" class="btn-theme" title="Switch Theme">🎨</button>
+      <button id="refreshBtn" class="btn-refresh" title="Refresh data">
+        <span class="refresh-icon">↻</span>
+        <span>Refresh</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ── Category Nav ──────────────────────────────────────── -->
+<nav class="category-nav">
+  <div class="nav-inner" id="navInner">
+    <button class="nav-tab active" data-cat="all">All</button>
+  </div>
+</nav>
+
+<!-- ── Main Content ─────────────────────────────────────── -->
+<main id="mainContent">
+
+  <div id="loadingState" class="state-screen">
+    <div class="spinner"></div>
+    <p>Loading tools…</p>
+  </div>
+
+  <div id="emptyState" class="state-screen hidden">
+    <div class="empty-icon">🔭</div>
+    <p>No data yet — fetch from all sources to get started.</p>
+    <button class="btn-primary" id="emptyFetchBtn">Fetch Tools Now</button>
+  </div>
+
+  <div id="app" class="hidden">
+
+    <!-- Suggestion of the Day -->
+    <section id="suggestionSection" class="suggestion-section">
+      <div class="section-label">✨ Suggestion for Today</div>
+      <div id="suggestionCard" class="suggestion-card"></div>
+    </section>
+
+    <!-- Weekly Top Movers -->
+    <section id="moversSection" class="movers-section hidden">
+      <div class="section-label">🚀 Top Movers This Week</div>
+      <div id="moversList" class="movers-list"></div>
+    </section>
+
+    <!-- Category sections -->
+    <div id="categoriesContainer"></div>
+
+  </div>
+</main>
+
+<!-- ── Detail Panel ──────────────────────────────────────── -->
+<div id="detailOverlay" class="detail-overlay hidden"></div>
+<aside id="detailPanel" class="detail-panel hidden">
+  <div class="dp-bar">
+    <button id="dpClose" class="dp-close" title="Close">✕</button>
+  </div>
+  <div id="dpBody" class="dp-body"></div>
+</aside>
+
+<!-- ── Toast ─────────────────────────────────────────────── -->
+<div id="toast" class="toast"></div>
+
+<!-- Navigation guard — must run before app.js.
+     Intercepts ALL external clicks/window.open inside pywebview
+     so the app window never navigates away. -->
+<script>
+(function () {
+  function _pyOpen(url, attempt) {
+    if (window.pywebview) {
+      window.pywebview.api.open_tool_url(url, '');
+    } else if ((attempt || 0) < 20) {
+      setTimeout(function () { _pyOpen(url, (attempt || 0) + 1); }, 100);
+    }
+    // After 2 s with no pywebview we're in a real browser — nothing to do
+    // (the _blank link was already opened by the anchor-click fallback)
+  }
+
+  // Block any <a href> that would leave localhost
+  document.addEventListener('click', function (e) {
+    var el = e.target;
+    while (el && el.tagName !== 'A') el = el.parentElement;
+    if (!el) return;
+    var h = el.href || '';
+    if (h.indexOf('http') === 0 && h.indexOf('localhost') < 0) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      _pyOpen(h);
+    }
+  }, true);
+
+  // Block window.open() — pywebview uses this for _blank links
+  var _orig = window.open;
+  window.open = function (url, tgt, feat) {
+    if (url && url.indexOf('http') === 0 && url.indexOf('localhost') < 0) {
+      _pyOpen(url);
+      return null;
+    }
+    return _orig ? _orig.call(window, url, tgt, feat) : null;
+  };
+})();
+</script>
+
+<script src="app.js?v=8"></script>
+</body>
+</html>
