@@ -1,5 +1,7 @@
 # ToolRadar
 
+> 🚧 **Work in progress** — under active development, not feature-complete. Feedback and review welcome via the open draft PR.
+
 A local tool/resource discovery app. Scrapes GitHub Trending, GitHub Topics, HackerNews (Show HN/Ask HN), and Dev.to weekly, then ranks and categorizes what it finds.
 
 ## How it works
