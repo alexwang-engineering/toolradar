@@ -729,36 +729,44 @@ loadData();
 
 // ── Theme system ──────────────────────────────────────────────
 const THEMES = [
-  { id: 'howl',     label: "Howl's Castle",    emoji: '🔥',
+  { id: 'aurora',     label: "Aurora Workshop",    emoji: '🔥',
     colors: ['#EAC41A','#2B1A10','#0D0804','#E75B64','#4F90CA'] },
-  { id: 'spirited', label: 'Spirited Away',     emoji: '🏮',
+  { id: 'lantern', label: 'Lantern Night',     emoji: '🏮',
     colors: ['#D4A017','#3A0810','#0D0205','#7C7D9D','#F5D0C8'] },
-  { id: 'mononoke', label: 'Princess Mononoke', emoji: '🌲',
+  { id: 'forest', label: 'Forest Trail', emoji: '🌲',
     colors: ['#C74148','#0D1B0F','#070E09','#769B7C','#DBB9A0'] },
-  { id: 'kiki',     label: "Kiki's Delivery",   emoji: '🧹',
+  { id: 'bakery',     label: "Bakery Morning",   emoji: '🧹',
     colors: ['#6C4453','#64B2F9','#FBFFF3','#A5839A','#EBD28D'] },
-  { id: 'laputa',   label: 'Castle in the Sky', emoji: '🌟',
+  { id: 'celestial',   label: 'Celestial Sky', emoji: '🌟',
     colors: ['#F0D77B','#B4DAE5','#AE93BE','#403369','#14191F'] },
 ];
 
-let currentTheme  = localStorage.getItem('toolradar-theme')  || 'howl';
+const LEGACY_THEME_IDS = {
+  howl: 'aurora',
+  spirited: 'lantern',
+  mononoke: 'forest',
+  kiki: 'bakery',
+  laputa: 'celestial',
+};
+const savedTheme = localStorage.getItem('toolradar-theme');
+let currentTheme  = LEGACY_THEME_IDS[savedTheme] || savedTheme || 'aurora';
 let currentFont   = localStorage.getItem('toolradar-font')   || 'serif';
 let currentSize   = localStorage.getItem('toolradar-size')   || 'normal';
 let currentAccent = localStorage.getItem('toolradar-accent') || '';
 let themePanelBuilt = false;
 
-// Ghibli accent palette — real film colors from researched palettes
+// Original accent palette shared by the theme cards.
 const ACCENTS = [
-  { color: '#EAC41A', label: 'Calcifer' },
+  { color: '#EAC41A', label: 'Ember' },
   { color: '#E75B64', label: 'Ember'    },
   { color: '#4F90CA', label: 'Sky'      },
-  { color: '#C74148', label: 'Mononoke' },
+  { color: '#C74148', label: 'Forest' },
   { color: '#769B7C', label: 'Forest'   },
   { color: '#D4A017', label: 'Lantern'  },
-  { color: '#A5839A', label: 'Kiki'     },
+  { color: '#A5839A', label: 'Bakery'     },
   { color: '#F0D77B', label: 'Crystal'  },
   { color: '#BD6E56', label: 'Bakery'   },
-  { color: '#5C5992', label: 'Laputa'   },
+  { color: '#5C5992', label: 'Celestial'   },
 ];
 
 function initTheme() {
@@ -808,7 +816,7 @@ function applyAccent(color, save = true) {
 
 function applyTheme(themeId, save = true) {
   currentTheme = themeId;
-  if (themeId === 'howl') {
+  if (themeId === 'aurora') {
     document.documentElement.removeAttribute('data-theme');
   } else {
     document.documentElement.dataset.theme = themeId;
@@ -818,7 +826,7 @@ function applyTheme(themeId, save = true) {
     c.classList.toggle('active', c.dataset.theme === themeId);
   });
   const btn = $('themeBtn');
-  if (btn) btn.classList.toggle('active', themeId !== 'howl');
+  if (btn) btn.classList.toggle('active', themeId !== 'aurora');
 }
 
 function buildThemePanel() {
@@ -905,7 +913,7 @@ function buildThemePanel() {
     btn.onclick = () => applySize(btn.dataset.size);
   });
   $('tpReset').onclick = () => {
-    applyTheme('howl'); applyFont('serif'); applySize('normal'); applyAccent('');
+    applyTheme('aurora'); applyFont('serif'); applySize('normal'); applyAccent('');
   };
 }
 

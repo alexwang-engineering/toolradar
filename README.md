@@ -4,6 +4,18 @@
 
 A local tool/resource discovery app. Scrapes GitHub Trending, GitHub Topics, HackerNews (Show HN/Ask HN), and Dev.to weekly, then ranks and categorizes what it finds.
 
+## Highlights
+
+- Collects from four source families, then normalises, deduplicates and ranks
+  the results by engagement.
+- Groups tools into eight practical categories for faster discovery.
+- Serves cached results immediately while a refresh runs in the background.
+- Packages the local server and frontend into a standalone macOS window with
+  `pywebview` and PyInstaller.
+- Uses an original, code-generated radar icon; `make_icon.py` reproducibly
+  builds every macOS icon size without external artwork or machine-specific
+  paths.
+
 ## How it works
 
 - `scraper.py` — multi-source scraper. Pulls GitHub Trending (by language/timeframe), GitHub Topics, HN Algolia search, and Dev.to, then deduplicates and ranks results by an engagement score.
@@ -23,10 +35,23 @@ Results are grouped into categories (Dev Tools & Libraries, AI & Productivity, L
 ./run.sh
 ```
 
-This installs Python dependencies (`requests`, `bs4`, `webview`) if missing, then launches `app.py`. The server listens on port `8742`.
+This installs Python dependencies (`requests`, `bs4`, `webview`) if missing,
+then launches `app.py`. The server listens only on `127.0.0.1:8742`, so it is
+not exposed to other machines on the network.
 
 ## Build a standalone app
 
 ```bash
 pyinstaller ToolRadar.spec
 ```
+
+## Verify
+
+```bash
+python -m compileall -q app.py scraper.py server.py make_icon.py
+python -m json.tool data/tools.json > /dev/null
+```
+
+GitHub Actions runs these offline checks on every push and pull request. Live
+source scraping is deliberately excluded from CI because upstream sites and
+network conditions are not deterministic.

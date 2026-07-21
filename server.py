@@ -21,6 +21,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 PORT      = 8742
+HOST      = "127.0.0.1"
 BASE_DIR  = Path(__file__).parent
 DATA_FILE = BASE_DIR / "data" / "tools.json"
 WEB_DIR   = BASE_DIR / "web"
@@ -135,12 +136,12 @@ def main():
     if not os.environ.get("TOOLRADAR_NO_BROWSER"):
         def _open():
             time.sleep(1.2)
-            webbrowser.open(f"http://localhost:{PORT}")
+            webbrowser.open(f"http://{HOST}:{PORT}")
         threading.Thread(target=_open, daemon=True).start()
 
     socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        print(f"\n🚀 Running at http://localhost:{PORT}")
+    with socketserver.TCPServer((HOST, PORT), Handler) as httpd:
+        print(f"\n🚀 Running at http://{HOST}:{PORT}")
         print("   Press Ctrl+C to stop\n")
         try:
             httpd.serve_forever()

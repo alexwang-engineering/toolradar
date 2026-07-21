@@ -1,11 +1,4 @@
-/* ── Ghibli Theme — Howl's Moving Castle interior, Calcifer firelight ──
-   Colors sourced from:
-   · ewenme/ghibli R pkg (film frame extracts)
-   · boardmix.cn Miyazaki palette analysis
-   · schemecolor.com Spirited Away
-   · ColorsWall Howl's Moving Castle fanart #eac41a
-   · HueHive Spirited Away palette
-   ──────────────────────────────────────────────────────────────────────── */
+/* ── ToolRadar theme — Aurora Workshop interior and ember light ────────── */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
 
 :root {
@@ -15,44 +8,43 @@
   --wood-mid:    #2B1A10;   /* warm amber-brown oak */
   --stone-cool:  #1A1020;   /* cool stone wall at depth */
 
-  /* ── Calcifer (fire demon) — boardmix + ColorsWall ── */
-  --fire-gold:   #EAC41A;   /* Calcifer's bright gold flame — ColorsWall #eac41a */
-  --fire-amber:  #D8AF39;   /* warm amber glow — ghibli R Ponyo #D8AF39 */
-  --fire-ember:  #E75B64;   /* ember coral — ghibli R Ponyo #E75B64 */
-  --fire-deep:   #782C2C;   /* deep maroon hearth — ColorsWall #782c2c */
+  /* ── Ember accent ── */
+  --fire-gold:   #EAC41A;
+  --fire-amber:  #D8AF39;
+  --fire-ember:  #E75B64;
+  --fire-deep:   #782C2C;
 
-  /* ── Castle sky (through the magical door) — boardmix ── */
-  --sky-blue:    #4F90CA;   /* Howl's open sky — boardmix #4F90CA */
-  --sky-teal:    #5C949C;   /* coastal teal — ColorsWall #5c949c */
+  /* ── Aurora sky ── */
+  --sky-blue:    #4F90CA;
+  --sky-teal:    #5C949C;
 
-  /* ── Sophie's world (warm cream + rose) ── */
-  --sophie-cream: #F0E5D8;  /* White Chocolate — SchemeColor Spirited Away #F0E5D8 */
-  --sophie-blush: #F0D5C9;  /* Ecru Blush — SchemeColor #F0D5C9 */
-  --sophie-amber: #E0CB8C;  /* warm parchment — boardmix Howl #E0CB8C */
-  --howl-rose:    #8D2641;  /* Howl's deep rose — boardmix #8D2641 */
-  --howl-peach:   #E8C4A2;  /* warm peach interior — ghibli R Ponyo #E8C4A2 */
+  /* ── parchment world (warm cream + rose) ── */
+  --parchment-cream: #F0E5D8;
+  --parchment-blush: #F0D5C9;
+  --parchment-amber: #E0CB8C;
+  --aurora-rose:     #8D2641;
+  --aurora-peach:    #E8C4A2;
 
-  /* ── Hill green (meadow glimpsed through door) — boardmix ── */
-  --hill-green:   #7B852E;  /* Welsh hill green — boardmix #7B852E */
+  --hill-green:   #7B852E;
 
   /* ── Semantic tokens ── */
   --text:   #F5E8C8;        /* warm cream reading light */
   --text2:  #C8AD80;        /* warm amber midtone */
   --text3:  #8A7255;        /* muted warm earth */
-  --border: rgba(234,196,26,.18);   /* Calcifer gold edge */
+  --border: rgba(234,196,26,.18);   /* Ember gold edge */
   --accent: var(--fire-gold);
   --card-bg:   rgba(43,26,16,.75);  /* warm dark wood, translucent */
   --card-bg-h: rgba(60,35,18,.85);
 
-  /* ── Category colours — all from real film data ── */
-  --cat-ai:       #EAC41A;   /* Calcifer gold */
-  --cat-dev:      #4F90CA;   /* Howl's sky blue */
+  /* ── Category colours — all from curated accessible palettes ── */
+  --cat-ai:       #EAC41A;   /* Ember gold */
+  --cat-dev:      #4F90CA;   /* aurora sky blue */
   --cat-devops:   #7B852E;   /* Welsh hill green */
-  --cat-security: #8D2641;   /* Howl's rose-red */
+  --cat-security: #8D2641;   /* aurora rose-red */
   --cat-data:     #D8AF39;   /* warm amber */
-  --cat-design:   #E8C4A2;   /* warm Sophie peach */
+  --cat-design:   #E8C4A2;   /* warm parchment peach */
   --cat-mobile:   #5C949C;   /* coastal teal */
-  --cat-learn:    #E75B64;   /* Calcifer ember coral */
+  --cat-learn:    #E75B64;   /* Ember ember coral */
 
   --rc-up:  #7B852E;
   --rc-dn:  #E75B64;
@@ -70,9 +62,9 @@
 html { scroll-behavior: smooth; }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   BACKGROUND — Howl's castle interior at night:
+   BACKGROUND — aurora castle interior at night:
    deep warm oak → amber hearth stone → cool far walls
-   with Calcifer fire glow (bottom-left) and sky glimpse (top-right)
+   with Ember fire glow (bottom-left) and sky glimpse (top-right)
    ───────────────────────────────────────────────────────────────────────── */
 body {
   color: var(--text);
@@ -94,7 +86,7 @@ body {
     radial-gradient(1px 1px at 15% 15%, rgba(245,232,200,.4) 0%, transparent 100%),
     radial-gradient(1px 1px at 38% 18%, rgba(245,232,200,.5) 0%, transparent 100%),
     radial-gradient(1px 1px at 76% 16%, rgba(245,232,200,.4) 0%, transparent 100%),
-    /* Calcifer's warm fire glow — bottom left hearth */
+    /* Ember's warm fire glow — bottom left hearth */
     radial-gradient(ellipse 55% 45% at  8% 92%, rgba(234,196,26,.14) 0%, rgba(231,91,100,.06) 50%, transparent 80%),
     radial-gradient(ellipse 35% 30% at  5% 95%, rgba(234,196,26,.10) 0%, transparent 65%),
     /* magical sky door glimpse — top right */
@@ -115,7 +107,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Calcifer's dancing flame — animated warm glow near hearth */
+/* Ember's dancing flame — animated warm glow near hearth */
 body::before {
   content: '';
   position: fixed;
@@ -127,7 +119,7 @@ body::before {
   );
   bottom: 8vh; left: 2%;
   pointer-events: none; z-index: 0;
-  animation: calciferGlow 4s ease-in-out infinite;
+  animation: emberGlow 4s ease-in-out infinite;
 }
 
 /* magical door sky light — top right ambient */
@@ -145,7 +137,7 @@ body::after {
   animation: skyDoor 8s ease-in-out infinite alternate;
 }
 
-@keyframes calciferGlow {
+@keyframes emberGlow {
   0%, 100% { opacity: .6; transform: scale(1)    translateY(0); }
   33%       { opacity: 1;  transform: scale(1.1)  translateY(-8px); }
   66%       { opacity: .8; transform: scale(.95)  translateY(4px); }
@@ -395,7 +387,7 @@ header {
   gap: 13px;
 }
 
-/* ── Tool card — warm oak panel with Calcifer-gold trim ──────────────── */
+/* ── Tool card — warm oak panel with Ember-gold trim ──────────────── */
 .tool-card {
   display: flex; flex-direction: column; gap: 10px;
   padding: 15px 17px;
@@ -685,11 +677,8 @@ header {
 
 /* ═══════════════════════════════════════════════════════════════════════════
    THEME ENGINE
-   Real Ghibli palettes:
-   · Spirited Away bathhouse (schemecolor): #B4A3C4 #F0E5D8 #7C7D9D
-   · Princess Mononoke (lospec mononoke-san): #03324e #c74148 #dbb9a0
-   · Kiki's Delivery (lospec guchokipanya): #a5839a #352a2d #ebd28d
-   · Castle in the Sky (ghibli R pkg LaputaMedium): #403369 #AE93BE #B4DAE5 #F0D77B
+   Original interface palettes: Lantern Night, Forest Trail, Bakery Morning
+   and Celestial Sky.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── Font & size CSS vars ─────────────────────────────────────────────────── */
@@ -735,7 +724,7 @@ html[data-size="large"] .tc-name  { font-size: 15.5px; }
 html[data-size="large"] .header-inner { height: 70px; }
 html[data-size="large"] .nav-tab  { padding: 13px 18px; }
 
-/* ── Supplemental semantic vars for Howl's default ────────────────────────── */
+/* ── Supplemental semantic vars for aurora default ────────────────────────── */
 :root {
   --header-bg:     rgba(13,8,4,.96);
   --header-border: rgba(234,196,26,.20);
@@ -791,8 +780,8 @@ header { background: var(--header-bg); border-bottom-color: var(--header-border)
 #cat-learn    .cat-header { border-left-color: var(--cat-learn); }
 .section-label { color: var(--text2); }
 
-/* ── THEME: spirited (Spirited Away Bathhouse) ──────────────────────────────── */
-html[data-theme="spirited"] {
+/* ── THEME: lantern (Lantern Night Bathhouse) ──────────────────────────────── */
+html[data-theme="lantern"] {
   --fire-gold:  #D4A017;  --fire-amber: #C07818;
   --fire-ember: #DC252B;  --fire-deep:  #6A1018;
   --sky-blue:   #7C7D9D;  --sky-teal:   #B4A3C4;
@@ -815,7 +804,7 @@ html[data-theme="spirited"] {
   --sh-hover: 0 10px 36px rgba(0,0,0,.65), 0 0 0 1px rgba(220,37,43,.3);
   --sh-fire:  0 4px 24px rgba(212,160,23,.3);
 }
-html[data-theme="spirited"] body {
+html[data-theme="lantern"] body {
   background:
     radial-gradient(1px 1px at  8%  6%, rgba(240,218,200,.7) 0%, transparent 100%),
     radial-gradient(1px 1px at 22%  3%, rgba(240,218,200,.5) 0%, transparent 100%),
@@ -829,16 +818,16 @@ html[data-theme="spirited"] body {
     linear-gradient(165deg, #0D0205 0%, #1A0508 20%, #220810 40%, #2A0610 60%, #180310 80%, #0D0208 100%);
   background-attachment: fixed;
 }
-html[data-theme="spirited"] body::before {
+html[data-theme="lantern"] body::before {
   background: radial-gradient(circle, rgba(220,37,43,.14) 0%, rgba(150,15,15,.06) 40%, transparent 70%);
   bottom: 8vh; left: 46%;
 }
-html[data-theme="spirited"] body::after {
+html[data-theme="lantern"] body::after {
   background: radial-gradient(ellipse, rgba(212,160,23,.10) 0%, rgba(180,130,20,.05) 50%, transparent 75%);
 }
 
-/* ── THEME: mononoke (Princess Mononoke Forest) ─────────────────────────────── */
-html[data-theme="mononoke"] {
+/* ── THEME: forest (Forest Trail Forest) ─────────────────────────────── */
+html[data-theme="forest"] {
   --fire-gold:  #C74148;  --fire-amber: #8F5428;
   --fire-ember: #CB444B;  --fire-deep:  #4A0818;
   --sky-blue:   #769B7C;  --sky-teal:   #51767C;
@@ -861,7 +850,7 @@ html[data-theme="mononoke"] {
   --sh-hover: 0 10px 36px rgba(0,0,0,.70), 0 0 0 1px rgba(199,65,72,.3);
   --sh-fire:  0 4px 24px rgba(199,65,72,.25);
 }
-html[data-theme="mononoke"] body {
+html[data-theme="forest"] body {
   background:
     radial-gradient(1px 1px at  8%  6%, rgba(210,235,210,.6) 0%, transparent 100%),
     radial-gradient(1px 1px at 22%  3%, rgba(210,235,210,.4) 0%, transparent 100%),
@@ -875,16 +864,16 @@ html[data-theme="mononoke"] body {
     linear-gradient(165deg, #070E09 0%, #0A1510 20%, #0D1B0F 40%, #0A180C 60%, #070D0A 80%, #040A07 100%);
   background-attachment: fixed;
 }
-html[data-theme="mononoke"] body::before {
+html[data-theme="forest"] body::before {
   background: radial-gradient(circle, rgba(118,155,124,.12) 0%, rgba(80,100,85,.05) 40%, transparent 70%);
   bottom: 8vh; left: 2%;
 }
-html[data-theme="mononoke"] body::after {
+html[data-theme="forest"] body::after {
   background: radial-gradient(ellipse, rgba(199,65,72,.08) 0%, rgba(150,50,55,.03) 50%, transparent 75%);
 }
 
-/* ── THEME: kiki (Kiki's Delivery Service — LIGHT) ──────────────────────────── */
-html[data-theme="kiki"] {
+/* ── THEME: bakery (Bakery Morning Service — LIGHT) ──────────────────────────── */
+html[data-theme="bakery"] {
   --fire-gold:  #6C4453;  --fire-amber: #A5839A;
   --fire-ember: #BD6E56;  --fire-deep:  #352A2D;
   --sky-blue:   #64B2F9;  --sky-teal:   #034D82;
@@ -908,7 +897,7 @@ html[data-theme="kiki"] {
   --sh-hover: 0 10px 36px rgba(53,42,45,.18), 0 0 0 1px rgba(165,131,154,.3);
   --sh-fire:  0 4px 24px rgba(108,68,83,.20);
 }
-html[data-theme="kiki"] body {
+html[data-theme="bakery"] body {
   background:
     radial-gradient(ellipse 30% 20% at 20% 15%, rgba(255,255,255,.65) 0%, transparent 70%),
     radial-gradient(ellipse 25% 15% at 75% 25%, rgba(255,255,255,.55) 0%, transparent 70%),
@@ -917,51 +906,51 @@ html[data-theme="kiki"] body {
     linear-gradient(180deg, #87CEEB 0%, #A8D9F0 30%, #C5E8F8 60%, #F0EDD0 100%);
   background-attachment: fixed;
 }
-html[data-theme="kiki"] body::before {
+html[data-theme="bakery"] body::before {
   background: radial-gradient(circle, rgba(209,141,90,.20) 0%, rgba(189,110,86,.08) 40%, transparent 70%);
   bottom: 8vh; left: 20%;
-  animation: calciferGlow 5s ease-in-out infinite;
+  animation: emberGlow 5s ease-in-out infinite;
 }
-html[data-theme="kiki"] body::after {
+html[data-theme="bakery"] body::after {
   background: radial-gradient(ellipse, rgba(100,178,249,.22) 0%, rgba(100,178,249,.08) 50%, transparent 75%);
 }
-html[data-theme="kiki"] .logo-text { color: #352A2D; text-shadow: 0 1px 4px rgba(255,255,255,.6); }
-html[data-theme="kiki"] .nav-tab { color: #6C4453; }
-html[data-theme="kiki"] .nav-tab:hover { color: #352A2D; }
-html[data-theme="kiki"] .nav-tab.active { color: #352A2D; border-bottom-color: #6C4453; }
-html[data-theme="kiki"] .btn-refresh { color: #6C4453; }
-html[data-theme="kiki"] .btn-refresh:hover:not(:disabled) { border-color: #6C4453; color: #352A2D; box-shadow: none; }
-html[data-theme="kiki"] #search { color: #352A2D; }
-html[data-theme="kiki"] #search::placeholder { color: rgba(165,131,154,.7); }
-html[data-theme="kiki"] #search:focus { border-color: #6C4453; box-shadow: 0 0 0 3px rgba(165,131,154,.18); }
-html[data-theme="kiki"] .clear-search { color: #A5839A; }
-html[data-theme="kiki"] .spinner { border-color: rgba(108,68,83,.2); border-top-color: #6C4453; }
-html[data-theme="kiki"] .dp-close { background: rgba(251,255,243,.8); border-color: rgba(165,131,154,.3); color: #6C4453; }
-html[data-theme="kiki"] .dp-close:hover { background: #6C4453; color: #FBFFF3; border-color: #6C4453; }
-html[data-theme="kiki"] .dp-bar { border-bottom-color: rgba(165,131,154,.22); }
-html[data-theme="kiki"] .src-github { background: rgba(3,77,130,.10); color: #034D82; border-color: rgba(3,77,130,.22); }
-html[data-theme="kiki"] .src-hackernews { background: rgba(142,78,78,.10); color: #8E4E4E; border-color: rgba(142,78,78,.22); }
-html[data-theme="kiki"] .src-devto { background: rgba(108,68,83,.10); color: #6C4453; border-color: rgba(108,68,83,.22); }
-html[data-theme="kiki"] .rc-up   { background: rgba(92,122,46,.15); color: #5C7A2E; }
-html[data-theme="kiki"] .rc-down { background: rgba(142,78,78,.15); color: #8E4E4E; }
-html[data-theme="kiki"] .rc-new  { background: rgba(108,68,83,.15); color: #6C4453; }
-html[data-theme="kiki"] .cat-rank.r1 { background: rgba(108,68,83,.12); color: #6C4453; border-color: rgba(108,68,83,.40); }
-html[data-theme="kiki"] .cat-rank.r2 { background: rgba(165,131,154,.12); color: #A5839A; border-color: rgba(165,131,154,.30); }
-html[data-theme="kiki"] .cat-rank.r3 { background: rgba(189,110,86,.12); color: #BD6E56; border-color: rgba(189,110,86,.30); }
-html[data-theme="kiki"] .cat-rank.r4 { background: rgba(53,42,45,.06); color: #A5839A; border-color: rgba(165,131,154,.20); }
-html[data-theme="kiki"] .tc-open-btn { background: rgba(251,255,243,.8); border-color: rgba(165,131,154,.3); color: #6C4453; }
-html[data-theme="kiki"] .tc-open-btn:hover { background: #6C4453 !important; color: #FBFFF3 !important; border-color: #6C4453 !important; }
-html[data-theme="kiki"] .sug-open { background: #6C4453; color: #FBFFF3; }
-html[data-theme="kiki"] .btn-primary { background: #6C4453; color: #FBFFF3; }
-html[data-theme="kiki"] .dp-change.same { background: rgba(165,131,154,.12); border-color: rgba(165,131,154,.22); }
-html[data-theme="kiki"] .dp-change.new  { background: rgba(108,68,83,.10);  border-color: rgba(108,68,83,.22); }
-html[data-theme="kiki"] .topic-tag { background: rgba(3,77,130,.10) !important; border-color: rgba(3,77,130,.22) !important; color: #034D82 !important; }
-html[data-theme="kiki"] .dp-visit { background: #6C4453; color: #FBFFF3; }
-html[data-theme="kiki"] .copy-btn:hover { background: #6C4453 !important; border-color: #6C4453 !important; }
-html[data-theme="kiki"] .toast { background: rgba(53,42,45,.96); border-color: rgba(108,68,83,.35); }
+html[data-theme="bakery"] .logo-text { color: #352A2D; text-shadow: 0 1px 4px rgba(255,255,255,.6); }
+html[data-theme="bakery"] .nav-tab { color: #6C4453; }
+html[data-theme="bakery"] .nav-tab:hover { color: #352A2D; }
+html[data-theme="bakery"] .nav-tab.active { color: #352A2D; border-bottom-color: #6C4453; }
+html[data-theme="bakery"] .btn-refresh { color: #6C4453; }
+html[data-theme="bakery"] .btn-refresh:hover:not(:disabled) { border-color: #6C4453; color: #352A2D; box-shadow: none; }
+html[data-theme="bakery"] #search { color: #352A2D; }
+html[data-theme="bakery"] #search::placeholder { color: rgba(165,131,154,.7); }
+html[data-theme="bakery"] #search:focus { border-color: #6C4453; box-shadow: 0 0 0 3px rgba(165,131,154,.18); }
+html[data-theme="bakery"] .clear-search { color: #A5839A; }
+html[data-theme="bakery"] .spinner { border-color: rgba(108,68,83,.2); border-top-color: #6C4453; }
+html[data-theme="bakery"] .dp-close { background: rgba(251,255,243,.8); border-color: rgba(165,131,154,.3); color: #6C4453; }
+html[data-theme="bakery"] .dp-close:hover { background: #6C4453; color: #FBFFF3; border-color: #6C4453; }
+html[data-theme="bakery"] .dp-bar { border-bottom-color: rgba(165,131,154,.22); }
+html[data-theme="bakery"] .src-github { background: rgba(3,77,130,.10); color: #034D82; border-color: rgba(3,77,130,.22); }
+html[data-theme="bakery"] .src-hackernews { background: rgba(142,78,78,.10); color: #8E4E4E; border-color: rgba(142,78,78,.22); }
+html[data-theme="bakery"] .src-devto { background: rgba(108,68,83,.10); color: #6C4453; border-color: rgba(108,68,83,.22); }
+html[data-theme="bakery"] .rc-up   { background: rgba(92,122,46,.15); color: #5C7A2E; }
+html[data-theme="bakery"] .rc-down { background: rgba(142,78,78,.15); color: #8E4E4E; }
+html[data-theme="bakery"] .rc-new  { background: rgba(108,68,83,.15); color: #6C4453; }
+html[data-theme="bakery"] .cat-rank.r1 { background: rgba(108,68,83,.12); color: #6C4453; border-color: rgba(108,68,83,.40); }
+html[data-theme="bakery"] .cat-rank.r2 { background: rgba(165,131,154,.12); color: #A5839A; border-color: rgba(165,131,154,.30); }
+html[data-theme="bakery"] .cat-rank.r3 { background: rgba(189,110,86,.12); color: #BD6E56; border-color: rgba(189,110,86,.30); }
+html[data-theme="bakery"] .cat-rank.r4 { background: rgba(53,42,45,.06); color: #A5839A; border-color: rgba(165,131,154,.20); }
+html[data-theme="bakery"] .tc-open-btn { background: rgba(251,255,243,.8); border-color: rgba(165,131,154,.3); color: #6C4453; }
+html[data-theme="bakery"] .tc-open-btn:hover { background: #6C4453 !important; color: #FBFFF3 !important; border-color: #6C4453 !important; }
+html[data-theme="bakery"] .sug-open { background: #6C4453; color: #FBFFF3; }
+html[data-theme="bakery"] .btn-primary { background: #6C4453; color: #FBFFF3; }
+html[data-theme="bakery"] .dp-change.same { background: rgba(165,131,154,.12); border-color: rgba(165,131,154,.22); }
+html[data-theme="bakery"] .dp-change.new  { background: rgba(108,68,83,.10);  border-color: rgba(108,68,83,.22); }
+html[data-theme="bakery"] .topic-tag { background: rgba(3,77,130,.10) !important; border-color: rgba(3,77,130,.22) !important; color: #034D82 !important; }
+html[data-theme="bakery"] .dp-visit { background: #6C4453; color: #FBFFF3; }
+html[data-theme="bakery"] .copy-btn:hover { background: #6C4453 !important; border-color: #6C4453 !important; }
+html[data-theme="bakery"] .toast { background: rgba(53,42,45,.96); border-color: rgba(108,68,83,.35); }
 
-/* ── THEME: laputa (Castle in the Sky — LIGHT celestial) ────────────────────── */
-html[data-theme="laputa"] {
+/* ── THEME: celestial (Celestial Sky — LIGHT celestial) ────────────────────── */
+html[data-theme="celestial"] {
   --fire-gold:  #F0D77B;  --fire-amber: #D4B850;
   --fire-ember: #5C5992;  --fire-deep:  #1D2645;
   --sky-blue:   #B4DAE5;  --sky-teal:   #5C5992;
@@ -985,7 +974,7 @@ html[data-theme="laputa"] {
   --sh-hover: 0 10px 36px rgba(20,25,31,.15), 0 0 0 1px rgba(240,215,123,.3);
   --sh-fire:  0 4px 24px rgba(240,215,123,.25);
 }
-html[data-theme="laputa"] body {
+html[data-theme="celestial"] body {
   background:
     radial-gradient(2px 2px at 15% 10%, rgba(240,215,123,.90) 0%, transparent 100%),
     radial-gradient(2px 2px at 80% 20%, rgba(240,215,123,.80) 0%, transparent 100%),
@@ -998,48 +987,48 @@ html[data-theme="laputa"] body {
     linear-gradient(180deg, #B4DAE5 0%, #C8E4EE 20%, #D4CEDF 55%, #AE93BE 82%, #8B7DB0 100%);
   background-attachment: fixed;
 }
-html[data-theme="laputa"] body::before {
+html[data-theme="celestial"] body::before {
   background: radial-gradient(circle, rgba(240,215,123,.20) 0%, rgba(200,180,80,.08) 40%, transparent 70%);
   bottom: 30vh; left: 46%;
-  animation: calciferGlow 6s ease-in-out infinite;
+  animation: emberGlow 6s ease-in-out infinite;
 }
-html[data-theme="laputa"] body::after {
+html[data-theme="celestial"] body::after {
   background: radial-gradient(ellipse, rgba(180,218,229,.28) 0%, rgba(180,218,229,.10) 50%, transparent 75%);
 }
-html[data-theme="laputa"] .logo-text { color: #14191F; text-shadow: 0 0 16px rgba(240,215,123,.5), 0 0 40px rgba(240,215,123,.2); }
-html[data-theme="laputa"] .nav-tab { color: #403369; }
-html[data-theme="laputa"] .nav-tab:hover { color: #1D2645; }
-html[data-theme="laputa"] .nav-tab.active { color: #14191F; border-bottom-color: #F0D77B; }
-html[data-theme="laputa"] .btn-refresh { color: #403369; }
-html[data-theme="laputa"] .btn-refresh:hover:not(:disabled) { border-color: #F0D77B; color: #14191F; box-shadow: none; }
-html[data-theme="laputa"] #search { color: #14191F; }
-html[data-theme="laputa"] #search::placeholder { color: rgba(64,51,105,.50); }
-html[data-theme="laputa"] #search:focus { border-color: #F0D77B; box-shadow: 0 0 0 3px rgba(240,215,123,.15); }
-html[data-theme="laputa"] .clear-search { color: #5C5992; }
-html[data-theme="laputa"] .spinner { border-color: rgba(64,51,105,.20); border-top-color: #F0D77B; }
-html[data-theme="laputa"] .dp-close { background: rgba(255,255,255,.40); border-color: rgba(240,215,123,.30); color: #403369; }
-html[data-theme="laputa"] .dp-close:hover { background: #F0D77B; color: #14191F; border-color: #F0D77B; }
-html[data-theme="laputa"] .dp-bar { border-bottom-color: rgba(240,215,123,.22); }
-html[data-theme="laputa"] .src-github { background: rgba(180,218,229,.20); color: #034D82; border-color: rgba(180,218,229,.40); }
-html[data-theme="laputa"] .src-hackernews { background: rgba(92,89,146,.12); color: #5C5992; border-color: rgba(92,89,146,.25); }
-html[data-theme="laputa"] .src-devto { background: rgba(64,51,105,.10); color: #403369; border-color: rgba(64,51,105,.22); }
-html[data-theme="laputa"] .rc-up   { background: rgba(45,124,62,.15); color: #2D7C3E; }
-html[data-theme="laputa"] .rc-down { background: rgba(92,89,146,.15); color: #5C5992; }
-html[data-theme="laputa"] .rc-new  { background: rgba(240,215,123,.20); color: #D4B850; }
-html[data-theme="laputa"] .cat-rank.r1 { background: rgba(240,215,123,.15); color: #D4B850; border-color: rgba(240,215,123,.45); }
-html[data-theme="laputa"] .cat-rank.r2 { background: rgba(174,147,190,.15); color: #5C5992; border-color: rgba(174,147,190,.35); }
-html[data-theme="laputa"] .cat-rank.r3 { background: rgba(180,218,229,.15); color: #034D82; border-color: rgba(180,218,229,.35); }
-html[data-theme="laputa"] .cat-rank.r4 { background: rgba(20,25,31,.06); color: #403369; border-color: rgba(64,51,105,.18); }
-html[data-theme="laputa"] .tc-open-btn { background: rgba(255,255,255,.40); border-color: rgba(240,215,123,.30); color: #403369; }
-html[data-theme="laputa"] .tc-open-btn:hover { background: #F0D77B !important; color: #14191F !important; border-color: #F0D77B !important; }
-html[data-theme="laputa"] .sug-open { background: #F0D77B; color: #14191F; }
-html[data-theme="laputa"] .btn-primary { background: #F0D77B; color: #14191F; }
-html[data-theme="laputa"] .dp-change.same { background: rgba(174,147,190,.15); border-color: rgba(174,147,190,.25); }
-html[data-theme="laputa"] .dp-change.new  { background: rgba(240,215,123,.12); border-color: rgba(240,215,123,.25); }
-html[data-theme="laputa"] .topic-tag { background: rgba(180,218,229,.20) !important; border-color: rgba(180,218,229,.35) !important; color: #034D82 !important; }
-html[data-theme="laputa"] .dp-visit { background: #F0D77B; color: #14191F; }
-html[data-theme="laputa"] .copy-btn:hover { background: #F0D77B !important; border-color: #F0D77B !important; color: #14191F !important; }
-html[data-theme="laputa"] .toast { background: rgba(20,25,31,.94); border-color: rgba(240,215,123,.30); }
+html[data-theme="celestial"] .logo-text { color: #14191F; text-shadow: 0 0 16px rgba(240,215,123,.5), 0 0 40px rgba(240,215,123,.2); }
+html[data-theme="celestial"] .nav-tab { color: #403369; }
+html[data-theme="celestial"] .nav-tab:hover { color: #1D2645; }
+html[data-theme="celestial"] .nav-tab.active { color: #14191F; border-bottom-color: #F0D77B; }
+html[data-theme="celestial"] .btn-refresh { color: #403369; }
+html[data-theme="celestial"] .btn-refresh:hover:not(:disabled) { border-color: #F0D77B; color: #14191F; box-shadow: none; }
+html[data-theme="celestial"] #search { color: #14191F; }
+html[data-theme="celestial"] #search::placeholder { color: rgba(64,51,105,.50); }
+html[data-theme="celestial"] #search:focus { border-color: #F0D77B; box-shadow: 0 0 0 3px rgba(240,215,123,.15); }
+html[data-theme="celestial"] .clear-search { color: #5C5992; }
+html[data-theme="celestial"] .spinner { border-color: rgba(64,51,105,.20); border-top-color: #F0D77B; }
+html[data-theme="celestial"] .dp-close { background: rgba(255,255,255,.40); border-color: rgba(240,215,123,.30); color: #403369; }
+html[data-theme="celestial"] .dp-close:hover { background: #F0D77B; color: #14191F; border-color: #F0D77B; }
+html[data-theme="celestial"] .dp-bar { border-bottom-color: rgba(240,215,123,.22); }
+html[data-theme="celestial"] .src-github { background: rgba(180,218,229,.20); color: #034D82; border-color: rgba(180,218,229,.40); }
+html[data-theme="celestial"] .src-hackernews { background: rgba(92,89,146,.12); color: #5C5992; border-color: rgba(92,89,146,.25); }
+html[data-theme="celestial"] .src-devto { background: rgba(64,51,105,.10); color: #403369; border-color: rgba(64,51,105,.22); }
+html[data-theme="celestial"] .rc-up   { background: rgba(45,124,62,.15); color: #2D7C3E; }
+html[data-theme="celestial"] .rc-down { background: rgba(92,89,146,.15); color: #5C5992; }
+html[data-theme="celestial"] .rc-new  { background: rgba(240,215,123,.20); color: #D4B850; }
+html[data-theme="celestial"] .cat-rank.r1 { background: rgba(240,215,123,.15); color: #D4B850; border-color: rgba(240,215,123,.45); }
+html[data-theme="celestial"] .cat-rank.r2 { background: rgba(174,147,190,.15); color: #5C5992; border-color: rgba(174,147,190,.35); }
+html[data-theme="celestial"] .cat-rank.r3 { background: rgba(180,218,229,.15); color: #034D82; border-color: rgba(180,218,229,.35); }
+html[data-theme="celestial"] .cat-rank.r4 { background: rgba(20,25,31,.06); color: #403369; border-color: rgba(64,51,105,.18); }
+html[data-theme="celestial"] .tc-open-btn { background: rgba(255,255,255,.40); border-color: rgba(240,215,123,.30); color: #403369; }
+html[data-theme="celestial"] .tc-open-btn:hover { background: #F0D77B !important; color: #14191F !important; border-color: #F0D77B !important; }
+html[data-theme="celestial"] .sug-open { background: #F0D77B; color: #14191F; }
+html[data-theme="celestial"] .btn-primary { background: #F0D77B; color: #14191F; }
+html[data-theme="celestial"] .dp-change.same { background: rgba(174,147,190,.15); border-color: rgba(174,147,190,.25); }
+html[data-theme="celestial"] .dp-change.new  { background: rgba(240,215,123,.12); border-color: rgba(240,215,123,.25); }
+html[data-theme="celestial"] .topic-tag { background: rgba(180,218,229,.20) !important; border-color: rgba(180,218,229,.35) !important; color: #034D82 !important; }
+html[data-theme="celestial"] .dp-visit { background: #F0D77B; color: #14191F; }
+html[data-theme="celestial"] .copy-btn:hover { background: #F0D77B !important; border-color: #F0D77B !important; color: #14191F !important; }
+html[data-theme="celestial"] .toast { background: rgba(20,25,31,.94); border-color: rgba(240,215,123,.30); }
 
 /* ═══════════════════════════════════════════════════════════════════════════
    THEME PANEL
