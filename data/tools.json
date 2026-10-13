@@ -1,7 +1,2303 @@
 {
-  "last_updated": "2026-07-20T08:36:15.295349",
-  "next_update": "2026-07-27T08:36:15.295359",
-  "total_tools": 0,
-  "suggestion_of_the_day": null,
-  "categories": []
+  "last_updated": "2026-10-12T08:58:20.022444",
+  "next_update": "2026-10-19T08:58:20.022454",
+  "total_tools": 138,
+  "suggestion_of_the_day": {
+    "id": "gh_typesense_typesense",
+    "name": "typesense/typesense",
+    "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
+    "url": "https://github.com/typesense/typesense",
+    "source": "GitHub Trending",
+    "category": "Data & Analytics",
+    "score": 26863,
+    "score_label": "\u2b50 26.9k",
+    "tags": [
+      "C++"
+    ],
+    "added": "2026-10-12T08:20:43.968378",
+    "rank": 2,
+    "rank_change": null
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI & Productivity",
+      "icon": "\ud83e\udd16",
+      "color": "#A371F7",
+      "rank": 1,
+      "rank_change": 1,
+      "total_score": 2269316,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_mattpocock_skills",
+          "name": "mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 286735,
+          "score_label": "\u2b50 286.7k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:01:16.839368",
+          "rank": 1,
+          "rank_change": 0
+        },
+        {
+          "id": "gh_ollama_ollama",
+          "name": "ollama/ollama",
+          "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+          "url": "https://github.com/ollama/ollama",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 182814,
+          "score_label": "\u2b50 182.8k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.064933",
+          "rank": 2,
+          "rank_change": 4
+        },
+        {
+          "id": "gh_DietrichGebert_ponytail",
+          "name": "DietrichGebert/ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 161308,
+          "score_label": "\u2b50 161.3k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.471216",
+          "rank": 3,
+          "rank_change": 8
+        },
+        {
+          "id": "gh_anthropics_claude-code",
+          "name": "anthropics/claude-code",
+          "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+          "url": "https://github.com/anthropics/claude-code",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 150277,
+          "score_label": "\u2b50 150.3k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:49.649167",
+          "rank": 4,
+          "rank_change": 9
+        },
+        {
+          "id": "gh_addyosmani_agent-skills",
+          "name": "addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 105197,
+          "score_label": "\u2b50 105.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.470517",
+          "rank": 5,
+          "rank_change": 16
+        },
+        {
+          "id": "gh_pytorch_pytorch",
+          "name": "pytorch/pytorch",
+          "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+          "url": "https://github.com/pytorch/pytorch",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 104648,
+          "score_label": "\u2b50 104.6k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.633319",
+          "rank": 6,
+          "rank_change": 14
+        },
+        {
+          "id": "gh_paperclipai_paperclip",
+          "name": "paperclipai/paperclip",
+          "description": "The open-source app everyone uses to manage agents at work",
+          "url": "https://github.com/paperclipai/paperclip",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 100530,
+          "score_label": "\u2b50 100.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:49.648710",
+          "rank": 7,
+          "rank_change": 15
+        },
+        {
+          "id": "gh_thedotmack_claude-mem",
+          "name": "thedotmack/claude-mem",
+          "description": "Persistent Context Across Sessions for Every Agent \u2013 Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 99838,
+          "score_label": "\u2b50 99.8k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:01:16.839582",
+          "rank": 8,
+          "rank_change": 15
+        },
+        {
+          "id": "gh_Panniantong_Agent-Reach",
+          "name": "Panniantong/Agent-Reach",
+          "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 96220,
+          "score_label": "\u2b50 96.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.648106",
+          "rank": 9,
+          "rank_change": 17
+        },
+        {
+          "id": "gh_pbakaus_impeccable",
+          "name": "pbakaus/impeccable",
+          "description": "The design language that makes your AI harness better at design.",
+          "url": "https://github.com/pbakaus/impeccable",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 79988,
+          "score_label": "\u2b50 80.0k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.470364",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_cline_cline",
+          "name": "cline/cline",
+          "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+          "url": "https://github.com/cline/cline",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 70195,
+          "score_label": "\u2b50 70.2k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.670682",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_docling-project_docling",
+          "name": "docling-project/docling",
+          "description": "Get your documents ready for gen AI",
+          "url": "https://github.com/docling-project/docling",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 68716,
+          "score_label": "\u2b50 68.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.633677",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_byoungd_up",
+          "name": "byoungd/up",
+          "description": "\u97e9\u5148\u51ef\u7684\u4eba\u751f\u8fdb\u9636\u6307\u5357 \u4eba\u751f\u8fdb\u9636\u6307\u5357 \u82f1\u8bed\u5b66\u4e60\u6307\u5357 \u79bb\u8c31\u7684\u4eba\u751f AI AI\u65f6\u4ee3\u7ec8\u8eab\u5b66\u4e60\uff1aAI\u3001\u5b66\u4e60\u3001\u521b\u4e1a\u4e0e\u6210\u957f\u3002",
+          "url": "https://github.com/byoungd/up",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 68341,
+          "score_label": "\u2b50 68.3k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678011",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_rohitg00_ai-engineering-from-scratch",
+          "name": "rohitg00/ai-engineering-from-scratch",
+          "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 67673,
+          "score_label": "\u2b50 67.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.649005",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_calesthio_OpenMontage",
+          "name": "calesthio/OpenMontage",
+          "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 67149,
+          "score_label": "\u2b50 67.1k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.647952",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_BerriAI_litellm",
+          "name": "BerriAI/litellm",
+          "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+          "url": "https://github.com/BerriAI/litellm",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 61012,
+          "score_label": "\u2b50 61.0k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.633512",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "gh_alibaba_open-code-review",
+          "name": "alibaba/open-code-review",
+          "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "url": "https://github.com/alibaba/open-code-review",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 46318,
+          "score_label": "\u2b50 46.3k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:49.648295",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_LibreChat-AI_LibreChat",
+          "name": "LibreChat-AI/LibreChat",
+          "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+          "url": "https://github.com/LibreChat-AI/LibreChat",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 45552,
+          "score_label": "\u2b50 45.6k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.670024",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tinyhumansai_openhuman",
+          "name": "tinyhumansai/openhuman",
+          "description": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 41857,
+          "score_label": "\u2b50 41.9k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674406",
+          "rank": 19,
+          "rank_change": -3
+        },
+        {
+          "id": "gh_microsoft_BitNet",
+          "name": "microsoft/BitNet",
+          "description": "Official inference framework for 1-bit LLMs",
+          "url": "https://github.com/microsoft/BitNet",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 40715,
+          "score_label": "\u2b50 40.7k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.969449",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_anthropics_financial-services",
+          "name": "anthropics/financial-services",
+          "description": "Trending Python project",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 39441,
+          "score_label": "\u2b50 39.4k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:49.648585",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_VectifyAI_PageIndex",
+          "name": "VectifyAI/PageIndex",
+          "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+          "url": "https://github.com/VectifyAI/PageIndex",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 39066,
+          "score_label": "\u2b50 39.1k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.632633",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_p-e-w_heretic",
+          "name": "p-e-w/heretic",
+          "description": "Fully automatic censorship removal for language models",
+          "url": "https://github.com/p-e-w/heretic",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 34677,
+          "score_label": "\u2b50 34.7k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.648241",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tashfeenahmed_freellmapi",
+          "name": "tashfeenahmed/freellmapi",
+          "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 33471,
+          "score_label": "\u2b50 33.5k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:49.650143",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Tencent_WeKnora",
+          "name": "Tencent/WeKnora",
+          "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+          "url": "https://github.com/Tencent/WeKnora",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 33344,
+          "score_label": "\u2b50 33.3k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:49.649299",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_davila7_claude-code-templates",
+          "name": "davila7/claude-code-templates",
+          "description": "CLI tool for configuring and monitoring Claude Code",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 32573,
+          "score_label": "\u2b50 32.6k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.632438",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "gh_trycua_cua",
+          "name": "trycua/cua",
+          "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+          "url": "https://github.com/trycua/cua",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 29421,
+          "score_label": "\u2b50 29.4k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:49.649980",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "gh_anthropics_knowledge-work-plugins",
+          "name": "anthropics/knowledge-work-plugins",
+          "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 29171,
+          "score_label": "\u2b50 29.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.647748",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "gh_mksglu_context-mode",
+          "name": "mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "url": "https://github.com/mksglu/context-mode",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 26734,
+          "score_label": "\u2b50 26.7k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:49.650310",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "gh_vorssaint_vorssaint-utils",
+          "name": "vorssaint/vorssaint-utils",
+          "description": "Free and open-source macOS menu bar toolkit.",
+          "url": "https://github.com/vorssaint/vorssaint-utils",
+          "source": "GitHub Trending",
+          "category": "AI & Productivity",
+          "score": 26335,
+          "score_label": "\u2b50 26.3k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.352280",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "name": "Dev Tools & Libraries",
+      "icon": "\ud83d\udee0",
+      "color": "#388BFD",
+      "rank": 2,
+      "rank_change": 1,
+      "total_score": 865022,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_vercel_next.js",
+          "name": "vercel/next.js",
+          "description": "The React Framework",
+          "url": "https://github.com/vercel/next.js",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 143144,
+          "score_label": "\u2b50 143.1k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.472158",
+          "rank": 1,
+          "rank_change": 5
+        },
+        {
+          "id": "gh_spring-projects_spring-boot",
+          "name": "spring-projects/spring-boot",
+          "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+          "url": "https://github.com/spring-projects/spring-boot",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 81587,
+          "score_label": "\u2b50 81.6k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.608484",
+          "rank": 2,
+          "rank_change": 26
+        },
+        {
+          "id": "gh_remotion-dev_remotion",
+          "name": "remotion-dev/remotion",
+          "description": "\ud83c\udfa5 Make videos programmatically with React",
+          "url": "https://github.com/remotion-dev/remotion",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 63403,
+          "score_label": "\u2b50 63.4k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.670964",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_poteto_hiring-without-whiteboards",
+          "name": "poteto/hiring-without-whiteboards",
+          "description": "\u2b50\ufe0f Companies that don't have a broken hiring process",
+          "url": "https://github.com/poteto/hiring-without-whiteboards",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 52594,
+          "score_label": "\u2b50 52.6k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.471371",
+          "rank": 4,
+          "rank_change": 23
+        },
+        {
+          "id": "gh_bilawalsidhu_gods-eye-view",
+          "name": "bilawalsidhu/gods-eye-view",
+          "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 52247,
+          "score_label": "\u2b50 52.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:49.650461",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_JustVugg_colibri",
+          "name": "JustVugg/colibri",
+          "description": "Run frontier MoE models on hardware you already own \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26",
+          "url": "https://github.com/JustVugg/colibri",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 41329,
+          "score_label": "\u2b50 41.3k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:49.649816",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_spacedriveapp_spacedrive",
+          "name": "spacedriveapp/spacedrive",
+          "description": "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.",
+          "url": "https://github.com/spacedriveapp/spacedrive",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 39135,
+          "score_label": "\u2b50 39.1k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674828",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_FreeCAD_FreeCAD",
+          "name": "FreeCAD/FreeCAD",
+          "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+          "url": "https://github.com/FreeCAD/FreeCAD",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 34183,
+          "score_label": "\u2b50 34.2k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.969019",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_vercel-labs_agent-skills",
+          "name": "vercel-labs/agent-skills",
+          "description": "Vercel's official collection of agent skills",
+          "url": "https://github.com/vercel-labs/agent-skills",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 32260,
+          "score_label": "\u2b50 32.3k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.677727",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Anuken_Mindustry",
+          "name": "Anuken/Mindustry",
+          "description": "The automation tower defense RTS",
+          "url": "https://github.com/Anuken/Mindustry",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 29333,
+          "score_label": "\u2b50 29.3k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.609082",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_sharkdp_hyperfine",
+          "name": "sharkdp/hyperfine",
+          "description": "A command-line benchmarking tool",
+          "url": "https://github.com/sharkdp/hyperfine",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 29077,
+          "score_label": "\u2b50 29.1k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674689",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_libuv_libuv",
+          "name": "libuv/libuv",
+          "description": "Cross-platform asynchronous I/O",
+          "url": "https://github.com/libuv/libuv",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 27241,
+          "score_label": "\u2b50 27.2k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.467064",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_pingdotgg_t3code",
+          "name": "pingdotgg/t3code",
+          "description": "Trending TypeScript project",
+          "url": "https://github.com/pingdotgg/t3code",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 27057,
+          "score_label": "\u2b50 27.1k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.670368",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_earthtojake_text-to-cad",
+          "name": "earthtojake/text-to-cad",
+          "description": "Give your agent CAD superpowers.",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 19395,
+          "score_label": "\u2b50 19.4k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:16.840264",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dortania_OpenCore-Legacy-Patcher",
+          "name": "dortania/OpenCore-Legacy-Patcher",
+          "description": "Experience macOS just like before",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 18578,
+          "score_label": "\u2b50 18.6k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.648829",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_HunxByts_GhostTrack",
+          "name": "HunxByts/GhostTrack",
+          "description": "Useful tool to track location or mobile number",
+          "url": "https://github.com/HunxByts/GhostTrack",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 18278,
+          "score_label": "\u2b50 18.3k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.634538",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "gh_reactos_reactos",
+          "name": "reactos/reactos",
+          "description": "A free Windows-compatible Operating System",
+          "url": "https://github.com/reactos/reactos",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 18183,
+          "score_label": "\u2b50 18.2k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.466779",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_JoeanAmier_TikTokDownloader",
+          "name": "JoeanAmier/TikTokDownloader",
+          "description": "\u6296\u97f3 / TikTok \u5e73\u53f0\u4f5c\u54c1\u4e0b\u8f7d/\u6570\u636e\u91c7\u96c6\u5de5\u5177",
+          "url": "https://github.com/JoeanAmier/TikTokDownloader",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 16710,
+          "score_label": "\u2b50 16.7k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678789",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_acidanthera_OpenCorePkg",
+          "name": "acidanthera/OpenCorePkg",
+          "description": "OpenCore bootloader",
+          "url": "https://github.com/acidanthera/OpenCorePkg",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 15524,
+          "score_label": "\u2b50 15.5k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.467206",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "gh_dyang886_Game-Cheats-Manager",
+          "name": "dyang886/Game-Cheats-Manager",
+          "description": "Easily download and manage single-player game cheats for your convenience",
+          "url": "https://github.com/dyang886/Game-Cheats-Manager",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 15226,
+          "score_label": "\u2b50 15.2k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.968681",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_hluk_CopyQ",
+          "name": "hluk/CopyQ",
+          "description": "Clipboard manager with advanced features",
+          "url": "https://github.com/hluk/CopyQ",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 12436,
+          "score_label": "\u2b50 12.4k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.969881",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Pumpkin-MC_Pumpkin",
+          "name": "Pumpkin-MC/Pumpkin",
+          "description": "Empowering everyone to host fast and efficient Minecraft servers",
+          "url": "https://github.com/Pumpkin-MC/Pumpkin",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 12321,
+          "score_label": "\u2b50 12.3k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674533",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_qist_tvbox",
+          "name": "qist/tvbox",
+          "description": "OK\u5f71\u89c6\u3001tvbox\u914d\u7f6e\u6587\u4ef6\uff0c\u5982\u679c\u559c\u6b22\uff0c\u8bf7Fork\u81ea\u7528\u3002\u4f7f\u7528\u524d\u8bf7\u4ed4\u7ec6\u9605\u8bfb\u4ed3\u5e93\u8bf4\u660e\uff0c\u4e00\u65e6\u4f7f\u7528\u5c06\u88ab\u89c6\u4e3a\u4f60\u5df2\u4e86\u89e3\u3002",
+          "url": "https://github.com/qist/tvbox",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 11889,
+          "score_label": "\u2b50 11.9k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.679099",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "gh_LaurieWired_GhidraMCP",
+          "name": "LaurieWired/GhidraMCP",
+          "description": "MCP Server for Ghidra",
+          "url": "https://github.com/LaurieWired/GhidraMCP",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 11077,
+          "score_label": "\u2b50 11.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607658",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_cursor_plugins",
+          "name": "cursor/plugins",
+          "description": "Cursor plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 10956,
+          "score_label": "\u2b50 11.0k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:01:16.839994",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ever-co_ever-gauzy",
+          "name": "ever-co/ever-gauzy",
+          "description": "Ever\u00ae Gauzy\u2122 - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+          "url": "https://github.com/ever-co/ever-gauzy",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 8351,
+          "score_label": "\u2b50 8.4k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.671876",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Neet-Nestor_Telegram-Media-Downloader",
+          "name": "Neet-Nestor/Telegram-Media-Downloader",
+          "description": "A script allowing you to download images and videos from Telegram web even if the group restricts downloading.",
+          "url": "https://github.com/Neet-Nestor/Telegram-Media-Downloader",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 6030,
+          "score_label": "\u2b50 6.0k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678644",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "gh_GeyserMC_Geyser",
+          "name": "GeyserMC/Geyser",
+          "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
+          "url": "https://github.com/GeyserMC/Geyser",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 5896,
+          "score_label": "\u2b50 5.9k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.608670",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Vita3K_Vita3K",
+          "name": "Vita3K/Vita3K",
+          "description": "Experimental PlayStation Vita emulator",
+          "url": "https://github.com/Vita3K/Vita3K",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 5818,
+          "score_label": "\u2b50 5.8k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.969161",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "gh_pablostanley_yoinks",
+          "name": "pablostanley/yoinks",
+          "description": "yoink any video from your terminal. no shady ads.",
+          "url": "https://github.com/pablostanley/yoinks",
+          "source": "GitHub Trending",
+          "category": "Dev Tools & Libraries",
+          "score": 5764,
+          "score_label": "\u2b50 5.8k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.671693",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security & Privacy",
+      "icon": "\ud83d\udd10",
+      "color": "#FF7B72",
+      "rank": 3,
+      "rank_change": 4,
+      "total_score": 836388,
+      "tool_count": 13,
+      "tools": [
+        {
+          "id": "gh_affaan-m_ECC",
+          "name": "affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 277402,
+          "score_label": "\u2b50 277.4k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:49.649000",
+          "rank": 1,
+          "rank_change": 0
+        },
+        {
+          "id": "gh_msitarzewski_agency-agents",
+          "name": "msitarzewski/agency-agents",
+          "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 159227,
+          "score_label": "\u2b50 159.2k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.548503",
+          "rank": 2,
+          "rank_change": 1
+        },
+        {
+          "id": "gh_home-assistant_core",
+          "name": "home-assistant/core",
+          "description": "\ud83c\udfe1 Open source home automation that puts local control and privacy first.",
+          "url": "https://github.com/home-assistant/core",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 91395,
+          "score_label": "\u2b50 91.4k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.633985",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_D4Vinci_Scrapling",
+          "name": "D4Vinci/Scrapling",
+          "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 86902,
+          "score_label": "\u2b50 86.9k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.632848",
+          "rank": 4,
+          "rank_change": 1
+        },
+        {
+          "id": "gh_NationalSecurityAgency_ghidra",
+          "name": "NationalSecurityAgency/ghidra",
+          "description": "Ghidra is a software reverse engineering (SRE) framework",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 83890,
+          "score_label": "\u2b50 83.9k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607011",
+          "rank": 5,
+          "rank_change": 3
+        },
+        {
+          "id": "gh_openssl_openssl",
+          "name": "openssl/openssl",
+          "description": "General purpose TLS and crypto library",
+          "url": "https://github.com/openssl/openssl",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 30927,
+          "score_label": "\u2b50 30.9k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.467699",
+          "rank": 6,
+          "rank_change": 22
+        },
+        {
+          "id": "gh_cloudflare_security-audit-skill",
+          "name": "cloudflare/security-audit-skill",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 28433,
+          "score_label": "\u2b50 28.4k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.677362",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_radareorg_radare2",
+          "name": "radareorg/radare2",
+          "description": "UNIX-like reverse engineering framework and command-line toolset",
+          "url": "https://github.com/radareorg/radare2",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 24998,
+          "score_label": "\u2b50 25.0k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.466467",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_oauth2-proxy_oauth2-proxy",
+          "name": "oauth2-proxy/oauth2-proxy",
+          "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+          "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 15152,
+          "score_label": "\u2b50 15.2k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066258",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_1N3_Sn1per",
+          "name": "1N3/Sn1per",
+          "description": "Automated penetration testing & attack surface management platform. Recon, scan, exploit, report \u2014 600+ exploits, 90+ integrations, 10K+ detections.",
+          "url": "https://github.com/1N3/Sn1per",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 11430,
+          "score_label": "\u2b50 11.4k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.549254",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_reconurge_flowsint",
+          "name": "reconurge/flowsint",
+          "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+          "url": "https://github.com/reconurge/flowsint",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 9654,
+          "score_label": "\u2b50 9.7k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.672024",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_pocket-id_pocket-id",
+          "name": "pocket-id/pocket-id",
+          "description": "The most user-friendly OpenID Connect Certified\u2122 and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
+          "url": "https://github.com/pocket-id/pocket-id",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 9548,
+          "score_label": "\u2b50 9.5k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066012",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_SnailSploit_Claude-Red",
+          "name": "SnailSploit/Claude-Red",
+          "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface \u2014 from SQLi to shellcode, EDR evasion to exploit development.",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "source": "GitHub Trending",
+          "category": "Security & Privacy",
+          "score": 7430,
+          "score_label": "\u2b50 7.4k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:53.634412",
+          "rank": 13,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Infrastructure",
+      "icon": "\ud83d\ude80",
+      "color": "#58A6FF",
+      "rank": 4,
+      "rank_change": 1,
+      "total_score": 691501,
+      "tool_count": 16,
+      "tools": [
+        {
+          "id": "gh_ohmyzsh_ohmyzsh",
+          "name": "ohmyzsh/ohmyzsh",
+          "description": "\ud83d\ude43 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 190102,
+          "score_label": "\u2b50 190.1k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.548940",
+          "rank": 1,
+          "rank_change": 1
+        },
+        {
+          "id": "gh_666ghj_MiroFish",
+          "name": "666ghj/MiroFish",
+          "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. \u7b80\u6d01\u901a\u7528\u7684\u7fa4\u4f53\u667a\u80fd\u5f15\u64ce\uff0c\u9884\u6d4b\u4e07\u7269",
+          "url": "https://github.com/666ghj/MiroFish",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 78220,
+          "score_label": "\u2b50 78.2k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.648556",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_caddyserver_caddy",
+          "name": "caddyserver/caddy",
+          "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+          "url": "https://github.com/caddyserver/caddy",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 77804,
+          "score_label": "\u2b50 77.8k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.064119",
+          "rank": 3,
+          "rank_change": 8
+        },
+        {
+          "id": "gh_traefik_traefik",
+          "name": "traefik/traefik",
+          "description": "The Cloud Native Application Proxy",
+          "url": "https://github.com/traefik/traefik",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 65172,
+          "score_label": "\u2b50 65.2k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066407",
+          "rank": 4,
+          "rank_change": 11
+        },
+        {
+          "id": "gh_go-gitea_gitea",
+          "name": "go-gitea/gitea",
+          "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+          "url": "https://github.com/go-gitea/gitea",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 58448,
+          "score_label": "\u2b50 58.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066574",
+          "rank": 5,
+          "rank_change": 16
+        },
+        {
+          "id": "gh_dockur_windows",
+          "name": "dockur/windows",
+          "description": "Windows inside a Docker container.",
+          "url": "https://github.com/dockur/windows",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 53607,
+          "score_label": "\u2b50 53.6k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.549843",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_aquasecurity_trivy",
+          "name": "aquasecurity/trivy",
+          "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+          "url": "https://github.com/aquasecurity/trivy",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 38363,
+          "score_label": "\u2b50 38.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.064546",
+          "rank": 7,
+          "rank_change": 12
+        },
+        {
+          "id": "gh_kestra-io_kestra",
+          "name": "kestra-io/kestra",
+          "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+          "url": "https://github.com/kestra-io/kestra",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 29507,
+          "score_label": "\u2b50 29.5k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607165",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_open-ani_animeko",
+          "name": "open-ani/animeko",
+          "description": "\u96c6\u627e\u756a\u3001\u8ffd\u756a\u3001\u770b\u756a\u7684\u4e00\u7ad9\u5f0f\u5f39\u5e55\u8ffd\u756a\u5e73\u53f0\uff0c\u4e91\u6536\u85cf\u540c\u6b65 (Bangumi)\uff0c\u79bb\u7ebf\u7f13\u5b58\uff0cBitTorrent\uff0c\u5f39\u5e55\u4e91\u8fc7\u6ee4\u3002100% Kotlin/Compose Multiplatform",
+          "url": "https://github.com/open-ani/animeko",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 20839,
+          "score_label": "\u2b50 20.8k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724019",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_google_gvisor",
+          "name": "google/gvisor",
+          "description": "Application Kernel for Containers",
+          "url": "https://github.com/google/gvisor",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 19644,
+          "score_label": "\u2b50 19.6k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066131",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_docker-mailserver_docker-mailserver",
+          "name": "docker-mailserver/docker-mailserver",
+          "description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.",
+          "url": "https://github.com/docker-mailserver/docker-mailserver",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 19462,
+          "score_label": "\u2b50 19.5k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.549095",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Tracer-Cloud_opensre",
+          "name": "Tracer-Cloud/opensre",
+          "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 11799,
+          "score_label": "\u2b50 11.8k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:01:18.648694",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_DuarteSantos8_openGym",
+          "name": "DuarteSantos8/openGym",
+          "description": "Self-hosted gym & body-weight tracker \u2014 plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+          "url": "https://github.com/DuarteSantos8/openGym",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 9951,
+          "score_label": "\u2b50 10.0k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.470205",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_TencentCloud_Octop",
+          "name": "TencentCloud/Octop",
+          "description": "A smarter, self-hosted AI assistant \u2014 multi-user, multi-agent.",
+          "url": "https://github.com/TencentCloud/Octop",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 8772,
+          "score_label": "\u2b50 8.8k",
+          "tags": [
+            "Python"
+          ],
+          "added": "2026-10-12T08:20:49.649446",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bethington_ghidra-mcp",
+          "name": "bethington/ghidra-mcp",
+          "description": "Ghidra MCP Server \u2014 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+          "url": "https://github.com/bethington/ghidra-mcp",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 5481,
+          "score_label": "\u2b50 5.5k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607520",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_zerx-lab_FluxDown",
+          "name": "zerx-lab/FluxDown",
+          "description": "Rust \u9a71\u52a8\u7684\u591a\u534f\u8bae\u4e0b\u8f7d\u7ba1\u7406\u5668\uff0c\u652f\u6301 HTTP/FTP/BitTorrent \u78c1\u529b\u94fe\u63a5\u53ca HLS/DASH \u6d41\u5a92\u4f53\uff0c\u667a\u80fd\u591a\u7ebf\u7a0b\u52a0\u901f\u4e0e\u6d4f\u89c8\u5668\u65e0\u7f1d\u96c6\u6210\u3002\u7cbe\u7f8e\u754c\u9762\uff0c\u6781\u81f4\u6027\u80fd\uff0c\u6c38\u4e45\u514d\u8d39\uff0c\u96f6\u5e7f\u544a\u3002",
+          "url": "https://github.com/zerx-lab/FluxDown",
+          "source": "GitHub Trending",
+          "category": "DevOps & Infrastructure",
+          "score": 4330,
+          "score_label": "\u2b50 4.3k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.675075",
+          "rank": 16,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile & Desktop Apps",
+      "icon": "\ud83d\udcf1",
+      "color": "#7EE787",
+      "rank": 5,
+      "rank_change": 1,
+      "total_score": 671037,
+      "tool_count": 30,
+      "tools": [
+        {
+          "id": "gh_flutter_flutter",
+          "name": "flutter/flutter",
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+          "url": "https://github.com/flutter/flutter",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 179849,
+          "score_label": "\u2b50 179.8k",
+          "tags": [
+            "Dart"
+          ],
+          "added": "2026-10-12T08:01:16.840132",
+          "rank": 1,
+          "rank_change": 0
+        },
+        {
+          "id": "gh_axios_axios",
+          "name": "axios/axios",
+          "description": "Promise based HTTP client for the browser and node.js",
+          "url": "https://github.com/axios/axios",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 109363,
+          "score_label": "\u2b50 109.4k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.471886",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_termux_termux-app",
+          "name": "termux/termux-app",
+          "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+          "url": "https://github.com/termux/termux-app",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 62427,
+          "score_label": "\u2b50 62.4k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.608188",
+          "rank": 3,
+          "rank_change": 10
+        },
+        {
+          "id": "gh_iina_iina",
+          "name": "iina/iina",
+          "description": "The modern video player for macOS.",
+          "url": "https://github.com/iina/iina",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 46745,
+          "score_label": "\u2b50 46.7k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.353844",
+          "rank": 4,
+          "rank_change": 22
+        },
+        {
+          "id": "gh_TeamNewPipe_NewPipe",
+          "name": "TeamNewPipe/NewPipe",
+          "description": "A libre lightweight streaming front-end for Android.",
+          "url": "https://github.com/TeamNewPipe/NewPipe",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 40078,
+          "score_label": "\u2b50 40.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607309",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_permissionlesstech_bitchat",
+          "name": "permissionlesstech/bitchat",
+          "description": "bluetooth mesh chat, IRC vibes",
+          "url": "https://github.com/permissionlesstech/bitchat",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 36544,
+          "score_label": "\u2b50 36.5k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.352567",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_RikkaApps_Shizuku",
+          "name": "RikkaApps/Shizuku",
+          "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+          "url": "https://github.com/RikkaApps/Shizuku",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 31392,
+          "score_label": "\u2b50 31.4k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.725201",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_DrKLO_Telegram",
+          "name": "DrKLO/Telegram",
+          "description": "Telegram for Android source",
+          "url": "https://github.com/DrKLO/Telegram",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 30058,
+          "score_label": "\u2b50 30.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.609365",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tiann_KernelSU",
+          "name": "tiann/KernelSU",
+          "description": "A Kernel based root solution for Android",
+          "url": "https://github.com/tiann/KernelSU",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 19086,
+          "score_label": "\u2b50 19.1k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.723578",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_PlayCover_PlayCover",
+          "name": "PlayCover/PlayCover",
+          "description": "Community fork of PlayCover",
+          "url": "https://github.com/PlayCover/PlayCover",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 11923,
+          "score_label": "\u2b50 11.9k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.353314",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_utkarshdalal_GameNative",
+          "name": "utkarshdalal/GameNative",
+          "description": "Native PC gaming with Steam, Epic, GOG and Amazon integrations on Android",
+          "url": "https://github.com/utkarshdalal/GameNative",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 11165,
+          "score_label": "\u2b50 11.2k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724632",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_WebKit_WebKit",
+          "name": "WebKit/WebKit",
+          "description": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+          "url": "https://github.com/WebKit/WebKit",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 10227,
+          "score_label": "\u2b50 10.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678337",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tester-army_e2e",
+          "name": "tester-army/e2e",
+          "description": "Next generation e2e testing framework for web and mobile apps.",
+          "url": "https://github.com/tester-army/e2e",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 9208,
+          "score_label": "\u2b50 9.2k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:01:16.839184",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_bmax121_APatch",
+          "name": "bmax121/APatch",
+          "description": "The patching of Android kernel and Android system",
+          "url": "https://github.com/bmax121/APatch",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 8037,
+          "score_label": "\u2b50 8.0k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724447",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_permissionlesstech_bitchat-android",
+          "name": "permissionlesstech/bitchat-android",
+          "description": "decentralized mesh chat",
+          "url": "https://github.com/permissionlesstech/bitchat-android",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 7787,
+          "score_label": "\u2b50 7.8k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.723868",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_xtool-org_xtool",
+          "name": "xtool-org/xtool",
+          "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+          "url": "https://github.com/xtool-org/xtool",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 7173,
+          "score_label": "\u2b50 7.2k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.352093",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "gh_wxxsfxyzm_InstallerX-Revived",
+          "name": "wxxsfxyzm/InstallerX-Revived",
+          "description": "More Expressive InstallerX !",
+          "url": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 6969,
+          "score_label": "\u2b50 7.0k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.725378",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_ejbills_DockDoor",
+          "name": "ejbills/DockDoor",
+          "description": "Window peeking, alt-tab and other enhancements for macOS",
+          "url": "https://github.com/ejbills/DockDoor",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 6323,
+          "score_label": "\u2b50 6.3k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.353487",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_FCL-Team_FoldCraftLauncher",
+          "name": "FCL-Team/FoldCraftLauncher",
+          "description": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
+          "url": "https://github.com/FCL-Team/FoldCraftLauncher",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 4912,
+          "score_label": "\u2b50 4.9k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.608334",
+          "rank": 19,
+          "rank_change": null
+        },
+        {
+          "id": "gh_KernelSU-Next_KernelSU-Next",
+          "name": "KernelSU-Next/KernelSU-Next",
+          "description": "An advanced Kernel based root solution for Android",
+          "url": "https://github.com/KernelSU-Next/KernelSU-Next",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 4421,
+          "score_label": "\u2b50 4.4k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.725051",
+          "rank": 20,
+          "rank_change": null
+        },
+        {
+          "id": "gh_CYQawa_YunX",
+          "name": "CYQawa/YunX",
+          "description": "\u2728\u4e00\u4e2a\u5b89\u5353\u7f51\u76d8\u89e3\u6790\u4e0b\u8f7dapp\u2728",
+          "url": "https://github.com/CYQawa/YunX",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 4127,
+          "score_label": "\u2b50 4.1k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724906",
+          "rank": 21,
+          "rank_change": null
+        },
+        {
+          "id": "gh_f_textream",
+          "name": "f/textream",
+          "description": "Textream is a free macOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.",
+          "url": "https://github.com/f/textream",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 4018,
+          "score_label": "\u2b50 4.0k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.353182",
+          "rank": 22,
+          "rank_change": null
+        },
+        {
+          "id": "gh_AndroidIDEOfficial_AndroidIDE",
+          "name": "AndroidIDEOfficial/AndroidIDE",
+          "description": "AndroidIDE is an IDE for Android to develop full featured Android apps.",
+          "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 3235,
+          "score_label": "\u2b50 3.2k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.607843",
+          "rank": 23,
+          "rank_change": null
+        },
+        {
+          "id": "gh_shmykelsa_AAAD",
+          "name": "shmykelsa/AAAD",
+          "description": "The original application for downloading and installing apps made specifically for Android Auto outside of Google Play Store. Active since 2021.",
+          "url": "https://github.com/shmykelsa/AAAD",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 3092,
+          "score_label": "\u2b50 3.1k",
+          "tags": [
+            "Java"
+          ],
+          "added": "2026-10-12T08:20:34.609509",
+          "rank": 24,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kushagrasinghx_BitChord",
+          "name": "kushagrasinghx/BitChord",
+          "description": "BitChord - A modern YouTube music client with clean aesthetics inspired from Apple Music",
+          "url": "https://github.com/kushagrasinghx/BitChord",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 2951,
+          "score_label": "\u2b50 3.0k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724308",
+          "rank": 25,
+          "rank_change": null
+        },
+        {
+          "id": "gh_andreknieriem_open-headunit",
+          "name": "andreknieriem/open-headunit",
+          "description": "Headunit App for displaying Android Auto",
+          "url": "https://github.com/andreknieriem/open-headunit",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 2716,
+          "score_label": "\u2b50 2.7k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724161",
+          "rank": 26,
+          "rank_change": null
+        },
+        {
+          "id": "gh_YuKongA_ghostlock-app",
+          "name": "YuKongA/ghostlock-app",
+          "description": "GhostLock One-Tap Execution App (CVE-2026-43499)",
+          "url": "https://github.com/YuKongA/ghostlock-app",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 1824,
+          "score_label": "\u2b50 1.8k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.723725",
+          "rank": 27,
+          "rank_change": null
+        },
+        {
+          "id": "gh_iliyami_MacSai",
+          "name": "iliyami/MacSai",
+          "description": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
+          "url": "https://github.com/iliyami/MacSai",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 1816,
+          "score_label": "\u2b50 1.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.354121",
+          "rank": 28,
+          "rank_change": null
+        },
+        {
+          "id": "gh_HD838A_remote-mic-app",
+          "name": "HD838A/remote-mic-app",
+          "description": "\u65e0\u7ebf\u9ea6\uff08SayAll.app\uff09\uff1a\u652f\u6301\u5c0f\u7c73\u84dd\u7259\u9065\u63a7\u5668 2 \u548c 2 Pro\uff0c\u53d8\u6210 Mac \u8bed\u97f3\u8f93\u5165\u8bbe\u5907",
+          "url": "https://github.com/HD838A/remote-mic-app",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 1806,
+          "score_label": "\u2b50 1.8k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.352849",
+          "rank": 29,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Dev4Mod_WaEnhancer",
+          "name": "Dev4Mod/WaEnhancer",
+          "description": "WhatsApp tools for Android",
+          "url": "https://github.com/Dev4Mod/WaEnhancer",
+          "source": "GitHub Trending",
+          "category": "Mobile & Desktop Apps",
+          "score": 1765,
+          "score_label": "\u2b50 1.8k",
+          "tags": [
+            "Kotlin"
+          ],
+          "added": "2026-10-12T08:20:36.724768",
+          "rank": 30,
+          "rank_change": null
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design & Media",
+      "icon": "\ud83c\udfa8",
+      "color": "#F78166",
+      "rank": 6,
+      "rank_change": -2,
+      "total_score": 497712,
+      "tool_count": 19,
+      "tools": [
+        {
+          "id": "gh_heygen-com_hyperframes",
+          "name": "heygen-com/hyperframes",
+          "description": "Write HTML. Render video. Built for agents.",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 61203,
+          "score_label": "\u2b50 61.2k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:01:16.839858",
+          "rank": 1,
+          "rank_change": 16
+        },
+        {
+          "id": "gh_bevyengine_bevy",
+          "name": "bevyengine/bevy",
+          "description": "A refreshingly simple data-driven game engine built in Rust",
+          "url": "https://github.com/bevyengine/bevy",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 48914,
+          "score_label": "\u2b50 48.9k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674038",
+          "rank": 2,
+          "rank_change": null
+        },
+        {
+          "id": "gh_MHSanaei_3x-ui",
+          "name": "MHSanaei/3x-ui",
+          "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto\u060c AmneziaWG)",
+          "url": "https://github.com/MHSanaei/3x-ui",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 47848,
+          "score_label": "\u2b50 47.8k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.066737",
+          "rank": 3,
+          "rank_change": null
+        },
+        {
+          "id": "gh_charmbracelet_bubbletea",
+          "name": "charmbracelet/bubbletea",
+          "description": "A powerful little TUI framework \ud83c\udfd7",
+          "url": "https://github.com/charmbracelet/bubbletea",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 45440,
+          "score_label": "\u2b50 45.4k",
+          "tags": [
+            "Go"
+          ],
+          "added": "2026-10-12T08:20:31.065872",
+          "rank": 4,
+          "rank_change": null
+        },
+        {
+          "id": "gh_shadps4-emu_shadPS4",
+          "name": "shadps4-emu/shadPS4",
+          "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
+          "url": "https://github.com/shadps4-emu/shadPS4",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 33438,
+          "score_label": "\u2b50 33.4k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.969741",
+          "rank": 5,
+          "rank_change": null
+        },
+        {
+          "id": "gh_emilk_egui",
+          "name": "emilk/egui",
+          "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+          "url": "https://github.com/emilk/egui",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 31268,
+          "score_label": "\u2b50 31.3k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674949",
+          "rank": 6,
+          "rank_change": null
+        },
+        {
+          "id": "gh_boykopovar_AnyPS5",
+          "name": "boykopovar/AnyPS5",
+          "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+          "url": "https://github.com/boykopovar/AnyPS5",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 30938,
+          "score_label": "\u2b50 30.9k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:01:16.839014",
+          "rank": 7,
+          "rank_change": null
+        },
+        {
+          "id": "gh_greensock_GSAP",
+          "name": "greensock/GSAP",
+          "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+          "url": "https://github.com/greensock/GSAP",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 29087,
+          "score_label": "\u2b50 29.1k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.472429",
+          "rank": 8,
+          "rank_change": null
+        },
+        {
+          "id": "gh_manaflow-ai_cmux",
+          "name": "manaflow-ai/cmux",
+          "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+          "url": "https://github.com/manaflow-ai/cmux",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 28112,
+          "score_label": "\u2b50 28.1k",
+          "tags": [
+            "Swift"
+          ],
+          "added": "2026-10-12T08:20:38.352431",
+          "rank": 9,
+          "rank_change": null
+        },
+        {
+          "id": "gh_spicetify_cli",
+          "name": "spicetify/cli",
+          "description": "Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.",
+          "url": "https://github.com/spicetify/cli",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 24949,
+          "score_label": "\u2b50 24.9k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678965",
+          "rank": 10,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tabler_tabler-icons",
+          "name": "tabler/tabler-icons",
+          "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+          "url": "https://github.com/tabler/tabler-icons",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 22224,
+          "score_label": "\u2b50 22.2k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:01:20.471700",
+          "rank": 11,
+          "rank_change": null
+        },
+        {
+          "id": "gh_moonlight-stream_moonlight-qt",
+          "name": "moonlight-stream/moonlight-qt",
+          "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
+          "url": "https://github.com/moonlight-stream/moonlight-qt",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 19058,
+          "score_label": "\u2b50 19.1k",
+          "tags": [
+            "C++"
+          ],
+          "added": "2026-10-12T08:20:43.968531",
+          "rank": 12,
+          "rank_change": null
+        },
+        {
+          "id": "gh_Effect-TS_effect",
+          "name": "Effect-TS/effect",
+          "description": "Build production-ready applications in TypeScript",
+          "url": "https://github.com/Effect-TS/effect",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 17237,
+          "score_label": "\u2b50 17.2k",
+          "tags": [
+            "TypeScript"
+          ],
+          "added": "2026-10-12T08:20:57.670540",
+          "rank": 13,
+          "rank_change": null
+        },
+        {
+          "id": "gh_longbridge_gpui-kit",
+          "name": "longbridge/gpui-kit",
+          "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+          "url": "https://github.com/longbridge/gpui-kit",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 16943,
+          "score_label": "\u2b50 16.9k",
+          "tags": [
+            "Rust"
+          ],
+          "added": "2026-10-12T08:20:32.674281",
+          "rank": 14,
+          "rank_change": null
+        },
+        {
+          "id": "gh_quickemu-project_quickemu",
+          "name": "quickemu-project/quickemu",
+          "description": "Quickly create and run optimised Windows, macOS and Linux virtual machines",
+          "url": "https://github.com/quickemu-project/quickemu",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 16494,
+          "score_label": "\u2b50 16.5k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.549401",
+          "rank": 15,
+          "rank_change": null
+        },
+        {
+          "id": "gh_laoma528_awesome-zhuiju-free",
+          "name": "laoma528/awesome-zhuiju-free",
+          "description": "\u514d\u8d39\u65e0\u5e7f\u544a\u7684\u8ffd\u5267\u8d44\u6e90\u6307\u5357\uff0c\u4eba\u5de5\u7cbe\u9009\u8d44\u6e90\u3001\u6bcf\u5929\u68c0\u6d4b\u8d44\u6e90\u6709\u6548\u6027\u3002\u6536\u5f55\u5728\u7ebf\u5f71\u89c6\u3001\u5f71\u89c6APP\u3001\u7f51\u76d8\u641c\u7d22\u3001\u78c1\u529bBT\u3001\u5b57\u5e55\u3001TVBox / \u5f71\u89c6\u4ed3\u7a7a\u58f3\u8f6f\u4ef6/\u914d\u7f6e\u5730\u5740\u3001IPTV\u76f4\u64ad\u6e90\u3001\u4f1a\u5458\u62fc\u56e2\u3001\u5f71\u89c6\u76f8\u5173\u5f00\u6e90\u9879\u76ee\u3002\u5f00\u6e90\uff0c\u793e\u533a\u5171\u540c\u7ef4\u62a4\u3002",
+          "url": "https://github.com/laoma528/awesome-zhuiju-free",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 11811,
+          "score_label": "\u2b50 11.8k",
+          "tags": [
+            "JavaScript"
+          ],
+          "added": "2026-10-12T08:20:55.678161",
+          "rank": 16,
+          "rank_change": null
+        },
+        {
+          "id": "gh_EpicGames_raddebugger",
+          "name": "EpicGames/raddebugger",
+          "description": "A native, user-mode, multi-process, graphical debugger.",
+          "url": "https://github.com/EpicGames/raddebugger",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 8415,
+          "score_label": "\u2b50 8.4k",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:01:16.839721",
+          "rank": 17,
+          "rank_change": null
+        },
+        {
+          "id": "gh_kejilion_sh",
+          "name": "kejilion/sh",
+          "description": "KEJILION.SH \u4e00\u6b3e\u5168\u529f\u80fd\u7684Linux\u7ba1\u7406\u811a\u672c\uff01An all-in-one Linux management script!",
+          "url": "https://github.com/kejilion/sh",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 3408,
+          "score_label": "\u2b50 3.4k",
+          "tags": [
+            "Shell"
+          ],
+          "added": "2026-10-12T08:20:45.549702",
+          "rank": 18,
+          "rank_change": null
+        },
+        {
+          "id": "gh_tarwin_tinyjsapp",
+          "name": "tarwin/tinyjsapp",
+          "description": "Build native apps in JS. Backend, frontend. ~5Mb.",
+          "url": "https://github.com/tarwin/tinyjsapp",
+          "source": "GitHub Trending",
+          "category": "Design & Media",
+          "score": 925,
+          "score_label": "\u2b50 925",
+          "tags": [
+            "C"
+          ],
+          "added": "2026-10-12T08:20:47.466924",
+          "rank": 19,
+          "rank_change": null
+        }
+      ]
+    }
+  ]
 }
